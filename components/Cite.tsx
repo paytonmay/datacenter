@@ -21,7 +21,7 @@ export function Cite({ id }: { id: string }) {
       <Link
         href={`/sources#src-${id}`}
         title={`${source.title} — ${source.publisher}`}
-        className="rounded bg-slate-200 px-1 py-0.5 text-[0.65rem] font-semibold text-slate-700 no-underline hover:bg-amber-200 hover:text-slate-900"
+        className="inline-flex min-h-[24px] min-w-[24px] items-center justify-center rounded bg-slate-200 px-1.5 py-1 text-[0.7rem] font-semibold text-slate-700 no-underline hover:bg-amber-200 hover:text-slate-900"
       >
         {n}
       </Link>
