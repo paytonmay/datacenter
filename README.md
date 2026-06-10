@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Data Centers, Explained
 
-## Getting Started
+An independent, fully-sourced educational website about data centers, built
+for the Pikeville, Kentucky community as it evaluates a proposed data center
+development at the Kentucky Enterprise Industrial Park.
 
-First, run the development server:
+**Every factual claim on the site carries a numbered citation** linking to a
+source registry (`lib/sources.ts`) of government reports, peer-reviewed
+studies, utility filings, and journalism. Source links were verified in
+June 2026.
+
+## Pages
+
+- `/` — Home and how the site handles facts
+- `/basics` — Data center types and sizes; where 25–30 MW fits
+- `/noise` — Measured decibel levels, case studies, standards, mitigation
+- `/water` — Cooling system types and real water numbers
+- `/power` — Power usage and the electric-rate question (incl. Kentucky Power / Eastern KY context)
+- `/health` — Health concerns labeled by evidence strength
+- `/communities` — Public opinion and outcomes in other towns
+- `/pikeville` — The local proposal, from the city's own documents
+- `/sources` — The full numbered source list
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev    # http://localhost:3000
+npm run build  # static production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with Next.js (App Router) + Tailwind CSS. Fully static — no database.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Corrections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This site aims to be accurate above all. If you find an error, a dead link,
+or a superseded figure, please open an issue or PR.

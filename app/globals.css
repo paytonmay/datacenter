@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Readable inline links inside content sections */
+.prose-custom a:not([class]) {
+  color: #b45309;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.prose-custom a:not([class]):hover {
+  color: #78350f;
+}
+.prose-custom strong {
+  color: #0f172a;
+}
+.prose-custom ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.prose-custom ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.prose-custom table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.prose-custom th {
+  text-align: left;
+  font-weight: 700;
+  color: #0f172a;
+  border-bottom: 2px solid #cbd5e1;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+}
+.prose-custom td {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  vertical-align: top;
 }
