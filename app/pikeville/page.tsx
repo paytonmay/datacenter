@@ -57,7 +57,9 @@ export default function PikevillePage() {
               investment plus state and federal grants, currently home to
               Appalachian Tank and Wrightway Concrete, with a state-certified
               Build-Ready site completed in 2024.
-              <Cite id="pikeville-press-release" />
+              <Cite id="pikeville-press-release" /> (See{" "}
+              <a href="/map">the map page</a> for where the park sits and how
+              far the nearest homes are.)
             </li>
           </ul>
         </Section>
@@ -190,6 +192,19 @@ export default function PikevillePage() {
             facility). As of the June 2026 announcement,{" "}
             <strong>no end user had been finalized</strong> — that negotiation
             was ongoing.
+            <Cite id="pikeville-review-details" />
+          </p>
+          <p>
+            For the record: local reporting notes the LLC is young — Kentucky
+            business filings show it was organized in 2024 and took the
+            &ldquo;MD Squared Power&rdquo; name in February 2026; its
+            managing member, Ben DeVary of Lexington, signed the MOU.
+            <Cite id="mountain-top-pikeville" />
+            <Cite id="pikeville-mou" /> That isn&rsquo;t unusual for a
+            project-specific development entity, but it is part of why the
+            city&rsquo;s independent review of the developer&rsquo;s capacity
+            to deliver — and protections that survive any future sale —
+            matter.
             <Cite id="pikeville-review-details" />
           </p>
         </Section>

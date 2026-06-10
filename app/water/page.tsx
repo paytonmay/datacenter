@@ -180,6 +180,59 @@ export default function WaterPage() {
           </p>
         </Section>
 
+        <Section title="Can the waste heat be put to use? Yes — with honest caveats">
+          <p>
+            Nearly all electricity entering a data center leaves as heat, so a
+            25–30 MW facility is also, in effect, a 24/7 heat source of
+            roughly the same size. In Northern Europe, where cities have
+            district heating networks, that heat genuinely warms homes:
+            Meta&rsquo;s Odense, Denmark plant recovers heat for the city
+            network (about 45 MW of heat production serving thousands of
+            homes and a hospital),
+            <Cite id="ramboll-odense" /> Microsoft&rsquo;s data centers near
+            Helsinki now supply up to 180 MW of district heat — on track to
+            cover ~40% of heating demand for an area of 250,000 people,
+            <Cite id="fortum-microsoft" /> Google&rsquo;s Hamina facility
+            will cover up to 80% of its town&rsquo;s heating demand free of
+            charge,
+            <Cite id="google-hamina-heat" /> and Stockholm&rsquo;s utility
+            literally <em>pays</em> data centers for their heat.
+            <Cite id="stockholm-data-parks" /> Germany now requires new data
+            centers to reuse 10–20% of their energy as heat.
+            <Cite id="germany-enefg" />
+          </p>
+          <p>
+            The honest catch: data center exhaust is <em>low-grade</em> heat
+            — roughly 100°F air from air-cooled halls (hotter, more usable
+            50–60°C water from modern liquid-cooled designs)
+            <Cite id="dck-heat-grade" /> — and using it requires heat pumps
+            plus, crucially, <strong>a heat customer nearby</strong>. The
+            Nordic projects work because city-wide hot-water networks already
+            existed; almost no U.S. town has one,
+            <Cite id="eesi-thermal" /> and we found no documented example of
+            a small-city American data center heating homes.
+          </p>
+          <p>
+            What <em>is</em> precedented in the U.S. is single-neighbor
+            reuse: Amazon&rsquo;s Seattle towers are warmed by ~5 MW of waste
+            heat piped across the street from a data-dense building,
+            <Cite id="amazon-denny" /> Notre Dame&rsquo;s server racks heat
+            South Bend&rsquo;s municipal greenhouse, saving the city about
+            $70,000 a year,
+            <Cite id="nd-greenhouse" /> and in the UK a 28 kW micro data
+            center cut a public swimming pool&rsquo;s gas bill 62%.
+            <Cite id="deep-green-pool" /> A regional policy group, ReImagine
+            Appalachia, argues for exactly this model here — using data
+            center heat for schools, public buildings, or greenhouses on
+            former mine land.
+            <Cite id="reimagine-appalachia" /> For Pikeville, heating the
+            town is not realistic; heating an adjacent greenhouse complex,
+            pool, or campus building is — <em>if</em> heat-recovery plumbing
+            is designed in from day one, which is a reasonable thing to raise
+            while a Development Agreement is still being negotiated.
+          </p>
+        </Section>
+
         <Section title="Where water became a problem — and where it didn't">
           <ul>
             <li>

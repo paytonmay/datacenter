@@ -139,6 +139,9 @@ export default function NoisePage() {
             protection: the proposed Pikeville site is inside an existing
             industrial park, and how far the nearest homes are from the
             cooling equipment will matter more than almost anything else.
+            See <a href="/map">the map page</a> for the actual geography —
+            the park sits on a plateau several hundred feet above the
+            nearest valley homes, roughly a mile away.
           </p>
         </Section>
 
@@ -187,6 +190,24 @@ export default function NoisePage() {
             yard)
             <Cite id="cnn-murphy-nc" /> and Adel, GA.
             <Cite id="ewg-adel" />
+          </p>
+          <p>
+            <strong>Closest to home — two Eastern Kentucky cases:</strong>{" "}
+            Pike County&rsquo;s own Blockware Bitcoin facility in Belfry — an
+            air-cooled crypto mine, the loudest facility class — has operated
+            since 2022 with <em>no noise complaint, lawsuit, or negative
+            coverage anywhere in the public record</em> after four years; it
+            occupies a former coal processing site rather than sitting
+            against homes.
+            <Cite id="gem-belfry" />
+            <Cite id="blockware-belfry" /> In Wolfe County, by contrast,
+            neighbors of a crypto facility that began operating in 2023 next
+            to a substation reported relentless 24/7 fan noise and sleep
+            disruption; a promised barrier wall became &ldquo;sound
+            blankets&rdquo; residents called cosmetic, and the county
+            declined to pass a noise ordinance.
+            <Cite id="lex18-wolfe" /> Same state, same technology — the
+            difference was siting and follow-through.
           </p>
           <p>
             <strong>Chandler, Arizona (the policy model):</strong> after

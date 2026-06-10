@@ -994,6 +994,187 @@ export const sources: Source[] = [
     url: "https://www.eesi.org/articles/view/data-centers-and-water-consumption",
     kind: "industry",
   },
+
+  // ── Waste-heat reuse ────────────────────────────────────────────
+  {
+    id: "ramboll-odense",
+    title:
+      "Meta surplus heat to district heating, Odense, Denmark (215,000 MWh/yr recovered, ~45 MW heat plant)",
+    publisher: "Ramboll (project engineer)",
+    url: "https://www.ramboll.com/en-us/projects/energy/meta-surplus-heat-to-district-heating",
+    kind: "industry",
+  },
+  {
+    id: "fortum-microsoft",
+    title:
+      "Fortum starts heat production at two Microsoft data center sites in Finland (up to 180 MW of district heat; ~40% of Espoo-area demand for 250,000 heat users)",
+    publisher: "Fortum",
+    url: "https://www.fortum.com/en/media/2026/05/fortum-has-started-heat-production-two-large-data-centre-sites-finland",
+    year: "2026",
+    kind: "industry",
+  },
+  {
+    id: "google-hamina-heat",
+    title:
+      "Google's first offsite heat recovery project: Hamina data center to cover up to 80% of the town's district heating demand, free of charge",
+    publisher: "Google",
+    url: "https://blog.google/company-news/inside-google/around-the-globe/google-europe/our-first-offsite-heat-recovery-project-lands-in-finland/",
+    kind: "industry",
+  },
+  {
+    id: "stockholm-data-parks",
+    title:
+      "Stockholm Data Parks: the city's utility pays data centers for their waste heat",
+    publisher: "Stockholm Data Parks (City of Stockholm / Stockholm Exergi)",
+    url: "https://stockholmdataparks.com/",
+    kind: "government",
+  },
+  {
+    id: "amazon-denny",
+    title:
+      "Amazon's Seattle towers are heated by a neighboring data-dense building's waste heat (~5 MW transferred)",
+    publisher: "The Seattle Times",
+    url: "https://www.seattletimes.com/business/real-estate/amazon-towers-will-be-heated-by-neighbors-excess-energy/",
+    kind: "news",
+  },
+  {
+    id: "nd-greenhouse",
+    title:
+      "Notre Dame server racks heat the South Bend municipal greenhouse (~$70,000/yr heating savings for the city)",
+    publisher: "University of Notre Dame",
+    url: "https://news.nd.edu/news/greenhouses-and-ldquogreenrdquo-computing/",
+    kind: "peer-reviewed",
+  },
+  {
+    id: "deep-green-pool",
+    title:
+      "Exmouth swimming pool heated by a 28 kW micro data center — pool gas use cut 62%, ~£20,000/yr saved",
+    publisher: "East Devon District Council",
+    url: "https://eastdevon.gov.uk/news/2023/03/exmouth-swimming-pool-is-heated-by-a-uk-first-in-technology-heating-solutions/",
+    year: "2023",
+    kind: "government",
+  },
+  {
+    id: "eesi-thermal",
+    title:
+      "Thermal energy networks: why US data center heat reuse is rare (low-grade ~100°F heat; no district heating networks)",
+    publisher: "Environmental and Energy Study Institute",
+    url: "https://www.eesi.org/articles/view/thermal-energy-networks-turn-data-center-waste-heat-into-a-hot-commodity",
+    kind: "industry",
+  },
+  {
+    id: "dck-heat-grade",
+    title:
+      "Heat reuse strategies for liquid-cooled data centers (air cooling ~35–40°C exhaust vs ~50–60°C water from direct-to-chip)",
+    publisher: "Data Center Knowledge",
+    url: "https://www.datacenterknowledge.com/cooling/heat-reuse-strategies-for-liquid-cooled-data-centers",
+    kind: "news",
+  },
+  {
+    id: "germany-enefg",
+    title:
+      "Germany's Energy Efficiency Act: new data centers must reuse 10–20% of their energy as heat (phasing in 2026–2028)",
+    publisher: "White & Case (legal analysis)",
+    url: "https://www.whitecase.com/insight-alert/data-center-requirements-under-new-german-energy-efficiency-act",
+    kind: "industry",
+  },
+  {
+    id: "reimagine-appalachia",
+    title:
+      "Turning a byproduct into a community asset: why data center waste heat matters for Appalachia",
+    publisher: "ReImagine Appalachia",
+    url: "https://reimagineappalachia.org/turning-a-byproduct-into-a-community-asset-why-data-center-waste-heat-matters/",
+    kind: "industry",
+    note: "Regional policy advocacy group.",
+  },
+
+  // ── Eastern Kentucky track record ───────────────────────────────
+  {
+    id: "gem-belfry",
+    title:
+      "Blockware Solutions Pike County facility (Belfry): 30 MW operating, former coal washing plant",
+    publisher: "Global Energy Monitor",
+    url: "https://www.gem.wiki/Blockware_Solutions_Pike_County_facility",
+    kind: "industry",
+  },
+  {
+    id: "ky-lantern-cig",
+    title:
+      "Pike County crypto mining operation approved for electricity discounts — with conditions (CIG/Kentucky Power special contract, 2023)",
+    publisher: "Kentucky Lantern",
+    url: "https://kentuckylantern.com/2023/09/19/pike-county-crypto-mining-operation-approved-for-electricity-discounts-with-conditions/",
+    year: "2023",
+    kind: "news",
+  },
+  {
+    id: "middlesboro-cig",
+    title:
+      "Pike County crypto mining operation to get utility discounts (CIG reported 10 employees hired, 3 more planned)",
+    publisher: "Middlesboro News",
+    url: "https://middlesboronews.com/2023/09/21/pike-county-crypto-mining-operation-to-get-utility-discounts/",
+    year: "2023",
+    kind: "news",
+  },
+  {
+    id: "lex18-wolfe",
+    title:
+      "Neighbors say crypto mine in rural Wolfe County is causing a nuisance (24/7 fan noise; promised wall became 'sound blankets')",
+    publisher: "LEX 18 Investigates",
+    url: "https://www.lex18.com/news/lex-18-investigates/neighbors-say-crypto-mine-in-rural-wolfe-county-is-causing-a-nuisance",
+    kind: "news",
+  },
+  {
+    id: "kentuckynewera-crypto",
+    title:
+      "Kentucky's crypto-mining promises were 'not always fulfilled' — Jenkins facility never switched on; jobs never materialized (AP)",
+    publisher: "Kentucky New Era (Associated Press)",
+    url: "https://www.kentuckynewera.com/cadiz_record/news/article_0865bed4-2e61-5d2b-9b99-fb842319238f.html",
+    kind: "news",
+  },
+  {
+    id: "utilitydive-ebon",
+    title:
+      "Kentucky PSC rejects Kentucky Power's 250 MW crypto-mining contract at the former Big Sandy plant site (Louisa), citing ratepayer risk",
+    publisher: "Utility Dive",
+    url: "https://www.utilitydive.com/news/kentucky-psc-aep-kentucky-power-cryptomining-power-supply-ebon/692237/",
+    year: "2023",
+    kind: "news",
+  },
+
+  // ── Park location & site facts ──────────────────────────────────
+  {
+    id: "oneeastky-packet",
+    title:
+      "Kentucky Enterprise Industrial Park marketing packet (coordinates, lot layout, elevation 1,250–1,325 ft, infrastructure)",
+    publisher: "One East Kentucky / City of Pikeville",
+    url: "https://www.whypikeville.com/sites/default/files/Kentucky%20Enterprise%20Industrial%20Park%20Packet-One%20East%20Kentucky.pdf",
+    kind: "government",
+  },
+  {
+    id: "kyced-listing",
+    title:
+      "Kentucky Enterprise Industrial Park state site listing (479 Industry Dr; 190 acres; site 195-013)",
+    publisher: "Kentucky Cabinet for Economic Development (ZoomProspector)",
+    url: "https://properties.zoomprospector.com/kentucky/property/479-Industry-Dr-Pikeville-KY-41501-Pikeville-Kentucky/3869E090-9298-4546-9F5E-6C0B855E45DC",
+    kind: "government",
+  },
+  {
+    id: "newsexpress-buildready",
+    title:
+      "Build-Ready site at industrial park nears completion (Lot A-3: 100,000 sq ft pad, 9.32 buildable acres, $4M project)",
+    publisher: "Appalachian News-Express",
+    url: "https://www.news-expressky.com/news/build-ready-site-at-industrial-park-nears-completion/article_37af13b3-a3ad-41b7-a85c-398d9bbe9572.html",
+    kind: "news",
+  },
+  {
+    id: "lanereport-aml",
+    title:
+      "Pikeville receives $5M Abandoned Mine Lands grant to build industrial park on reclaimed mine land",
+    publisher: "The Lane Report",
+    url: "https://www.lanereport.com/68706/2016/10/pikeville-receives-5m-grant-to-build-industrial-park-on-reclaimed-mine-land/",
+    year: "2016",
+    kind: "news",
+  },
 ];
 
 const byId = new Map(sources.map((s) => [s.id, s]));

@@ -72,10 +72,16 @@ export default function BasicsPage() {
             an estimated 0.6%–2.3% of all U.S. electricity.
             <Cite id="eia-crypto" /> Pike County already has one:
             Blockware Solutions opened a ~20 MW mining facility at a former
-            coal processing site in Belfry in 2022,
-            <Cite id="blockware-belfry" /> reporting 5–10 full-time jobs at
-            about $23/hour.
+            coal processing site in Belfry in 2022 (since grown to roughly 30
+            MW),
+            <Cite id="blockware-belfry" />
+            <Cite id="gem-belfry" /> announcing 5–10 full-time jobs at about
+            $23/hour — and a 2023 regulatory filing reported about 10
+            employees hired with 3 more planned across its Pike County
+            operations, roughly as promised. The announced expansion to
+            75–100 MW, however, never materialized.
             <Cite id="blockware-jobs" />
+            <Cite id="middlesboro-cig" />
           </p>
           <Callout tone="info" title="Why the type matters for Pikeville">
             The worst community outcomes documented anywhere (constant loud

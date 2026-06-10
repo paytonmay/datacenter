@@ -136,6 +136,63 @@ export default function CommunitiesPage() {
           </ul>
         </Section>
 
+        <Section title="Eastern Kentucky's own track record">
+          <p>
+            We don&rsquo;t have to look out of state for precedents — the
+            region has run this experiment once already, with crypto mining
+            in the early 2020s. The record is instructive in both directions:
+          </p>
+          <ul>
+            <li>
+              <strong>Belfry (Pike County) — quiet, modest, real.</strong>{" "}
+              Blockware&rsquo;s mine opened in 2022, grew from 20 to roughly
+              30 MW, and delivered approximately the ~10 jobs it promised —
+              with no community conflict on record in four years. But the
+              touted expansion to 75–100 MW and a promised third Kentucky
+              site never happened, and there&rsquo;s been almost no public
+              reporting since 2022.
+              <Cite id="gem-belfry" />
+              <Cite id="middlesboro-cig" />
+            </li>
+            <li>
+              <strong>Hatfield (Pike County) — discounts with conditions.</strong>{" "}
+              When Blockware&rsquo;s subsidiary sought a special Kentucky
+              Power contract with $2.5M+ in electricity discounts for a
+              second facility, the PSC approved it only with protections:
+              the company covers incremental capacity costs dollar-for-dollar
+              and posts $2.5M+ in security bonds — an early local example of
+              the ring-fencing now standard for data centers.
+              <Cite id="ky-lantern-cig" />
+            </li>
+            <li>
+              <strong>Jenkins (Letcher County) — the cautionary tale.</strong>{" "}
+              A warehouse was converted for a Hong Kong-based crypto company;
+              the machines were never switched on, the deal collapsed into
+              litigation, and the promised retraining jobs never came.
+              <Cite id="kentuckynewera-crypto" />
+            </li>
+            <li>
+              <strong>Louisa (Lawrence County) — the regulator said no.</strong>{" "}
+              The PSC rejected Kentucky Power&rsquo;s 250 MW crypto contract
+              at the former Big Sandy plant site, citing capacity shortfalls
+              and ratepayer risk — proof that the PSC will block deals it
+              finds unsafe for customers.
+              <Cite id="utilitydive-ebon" />
+            </li>
+          </ul>
+          <p>
+            The head of the region&rsquo;s economic development agency summed
+            up the crypto wave: &ldquo;I don&rsquo;t think any of them have
+            really materialized at the level that anyone hoped they
+            would.&rdquo;
+            <Cite id="kentuckynewera-crypto" /> The honest lesson isn&rsquo;t
+            that projects fail or succeed — it&rsquo;s that{" "}
+            <strong>announcements aren&rsquo;t outcomes</strong>, and the
+            deals that protected the public were the ones with enforceable
+            conditions attached up front.
+          </p>
+        </Section>
+
         <Section title="Patterns worth noticing">
           <ul>
             <li>
