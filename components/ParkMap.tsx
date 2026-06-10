@@ -26,7 +26,7 @@ const RINGS: { feet: number; label: string; color: string }[] = [
   {
     feet: 5280,
     label: "1 mile — generator tests may be faintly audible",
-    color: "#64748b",
+    color: "#f1f5f9", // light so it reads against dark satellite imagery
   },
 ];
 
@@ -78,16 +78,26 @@ export default function ParkMap() {
     });
     leafletMap.current = map;
 
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      maxZoom: 18,
-    }).addTo(map);
+    // Satellite imagery basemap (Esri World Imagery, free for this use)
+    L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      {
+        attribution:
+          "Imagery &copy; Esri — Maxar, Earthstar Geographics, and the GIS User Community",
+        maxZoom: 18,
+      }
+    ).addTo(map);
+
+    // Place/road labels overlay so hamlets and highways stay identifiable
+    L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+      { maxZoom: 18 }
+    ).addTo(map);
 
     // Park marker
     const marker = L.circleMarker(RING_CENTER, {
       radius: 9,
-      color: "#92400e",
+      color: "#ffffff",
       fillColor: "#f59e0b",
       fillOpacity: 1,
       weight: 2,
@@ -112,7 +122,7 @@ export default function ParkMap() {
     for (const place of PLACES) {
       const m = L.circleMarker(place.pos, {
         radius: 6,
-        color: "#1d4ed8",
+        color: "#ffffff",
         fillColor: "#3b82f6",
         fillOpacity: 0.9,
         weight: 2,
