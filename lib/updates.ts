@@ -12,6 +12,17 @@ export interface UpdateEntry {
 export const updates: UpdateEntry[] = [
   {
     date: "2026-06-11",
+    title: "Real tax rates and the electric franchise fee",
+    details:
+      "Added the actual 2025 Kentucky property tax rates (computing equipment is taxed at roughly $1.80 per $100 across state, county, city, and school districts, with the school district collecting the largest share) and the city's 3% electric franchise fee from the publicly filed Kentucky Power agreement, with arithmetic against the city's FY2026-27 budget. The budget, presented June 9, 2026, is hosted here as a public record.",
+    pages: [
+      { href: "/ideas", label: "Ideas" },
+      { href: "/power", label: "Power" },
+      { href: "/faq", label: "FAQ" },
+    ],
+  },
+  {
+    date: "2026-06-11",
     title: "Civic toolkit: questions checklist, status tracker, FAQ, glossary",
     details:
       "Added a printable list of questions worth asking before the Development Agreement is signed (with a document shelf for officials), a where-things-stand timeline with how to participate and how Kentucky open records requests work, a plain-language FAQ, a glossary, and this updates log.",

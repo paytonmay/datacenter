@@ -128,6 +128,18 @@ export default function PowerPage() {
               cost-causing buildout that drives rate increases elsewhere
               isn&rsquo;t needed for phase one.
             </li>
+            <li>
+              <strong>The city gets a cut of every kilowatt-hour.</strong>{" "}
+              Under a franchise agreement on file with state regulators,
+              Kentucky Power pays the City of Pikeville 3% of revenues from
+              electric service inside city limits,
+              <Cite id="psc-pikeville-franchise" />{" "}a line budgeted at
+              $730,000 for FY2026-27.
+              <Cite id="pikeville-budget-fy27" />{" "}A 30 MW facility&rsquo;s
+              power purchases would add several hundred thousand dollars a
+              year to that, regardless of what happens with rates. (The
+              Ideas page works through this arithmetic.)
+            </li>
           </ul>
         </Section>
 

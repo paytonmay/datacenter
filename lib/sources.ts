@@ -43,6 +43,16 @@ export const sources: Source[] = [
     year: "2026",
     kind: "local",
   },
+  {
+    id: "pikeville-budget-fy27",
+    title:
+      "City of Pikeville Fiscal Year 2026-2027 Budget ($29.2M general fund; Kentucky Power franchise fees budgeted at $730,000; property tax revenue $945,000; $6M spec building at the industrial park)",
+    publisher: "City of Pikeville, KY",
+    url: "/files/pikeville-budget-fy2026-27.pdf",
+    year: "2026",
+    kind: "local",
+    note: "Public record presented to the City Commission June 9, 2026; copy hosted here, as the city's website has not yet posted it.",
+  },
 
   // ── Types, sizes & landscape ────────────────────────────────────
   {
@@ -1265,6 +1275,24 @@ export const sources: Source[] = [
     publisher: "Kentucky General Assembly",
     url: "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53011",
     kind: "government",
+  },
+  {
+    id: "ky-dor-rates-2025",
+    title:
+      "2025 Kentucky Property Tax Rates (official annual publication: state, county, city, and school district rates per $100 of taxable value; computer equipment taxed at the 45-cent state rate plus full local rates)",
+    publisher: "Kentucky Department of Revenue, Office of Property Valuation",
+    url: "https://revenue.ky.gov/News/Publications/Property%20Tax%20Rate%20Books/2025%20Property%20Tax%20Rate%20Book.pdf",
+    year: "2025",
+    kind: "government",
+  },
+  {
+    id: "psc-pikeville-franchise",
+    title:
+      "Electric franchise agreement, City of Pikeville and Kentucky Power Company (3% of revenues from electric service within city limits; 10-year term commencing April 1, 2020; Ordinance O-2019-25)",
+    publisher: "Kentucky Public Service Commission (tariff filing)",
+    url: "https://psc.ky.gov/tariffs/Electric/Kentucky%20Power%20Company/Franchises/City%20of%20Pikeville/2019-09-09.pdf",
+    year: "2020",
+    kind: "utility-filing",
   },
 
   // ── Civic process & open government ─────────────────────────────

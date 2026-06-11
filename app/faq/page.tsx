@@ -80,7 +80,7 @@ const faqJsonLd = {
       name: "What does the city get out of it financially?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Potentially: property taxes (including Kentucky personal property taxes on the computing equipment, which the city says will not be waived), occupational taxes on payroll, utility revenue, and whatever lease or host payments are negotiated. For scale, the city's whole general fund collected about $21.4 million in FY2024. The Ideas page shows what other communities did with comparable windfalls, including permanent investment funds.",
+        text: "Several streams. Property taxes on the computing equipment (taxed at roughly $1.80 per $100 of value across state, county, city, and school rates, and the school district collects the largest share). A 3% franchise fee Kentucky Power pays the city on all electric sales inside city limits, which a data center's power purchases would add several hundred thousand dollars a year to. Plus occupational taxes, utility revenue, and whatever lease or host payments are negotiated. For scale, the city's whole general fund collected about $21.4 million in FY2024. The Ideas page works through the arithmetic.",
       },
     },
     {
@@ -247,10 +247,16 @@ export default function FAQPage() {
 
         <FAQ q="What does the city get out of it financially?">
           <p>
-            Potentially: property taxes (including Kentucky personal property
-            tax on the computing equipment, which the city says it will not
-            waive
-            <Cite id="pikeville-review-details" />),{" "}plus occupational taxes,
+            Several streams. Property taxes on the computing equipment,
+            which the city says it will not waive
+            <Cite id="pikeville-review-details" />: roughly $1.80 per $100
+            of value across state, county, city, and school rates, and{" "}
+            <strong>the school district collects the largest share</strong>.
+            <Cite id="ky-dor-rates-2025" />{" "}A 3% franchise fee Kentucky
+            Power pays the city on all electric sales inside city limits,
+            which a data center&rsquo;s power purchases would add several
+            hundred thousand dollars a year to.
+            <Cite id="psc-pikeville-franchise" />{" "}Plus occupational taxes,
             utility revenue, and whatever lease or host payments get
             negotiated. For scale: the city&rsquo;s entire general fund
             collected about $21.4 million in FY2024.

@@ -92,7 +92,14 @@ export default function IdeasPage() {
             question. Free or near-free process heat could make the
             remaining lots <em>more</em>{" "}attractive, not less: greenhouses,
             food processing, aquaculture, or simply heating a neighboring
-            tenant&rsquo;s building.
+            tenant&rsquo;s building. The first candidate already has a
+            budget line: the city&rsquo;s FY2026-27 budget funds a $6
+            million, 50,000-square-foot spec building inside the same park,
+            built to attract a future employer.
+            <Cite id="pikeville-budget-fy27" />{" "}If the data center and the
+            spec building are designed together, the spec building could
+            offer a tenant something almost no industrial park in America
+            can: heat as a utility, nearly free.
           </p>
           <p>
             <strong>What would have to be in the agreement:</strong>{" "}
@@ -167,23 +174,58 @@ export default function IdeasPage() {
             city&rsquo;s general fund collected about $21.4 million in
             FY2024: $12.2 million of it from the 2% occupational license
             fee, and just $1.07 million from property taxes.
-            <Cite id="pikeville-audit-2024" />{" "}The FY2026 budget runs about
-            $28 million.
-            <Cite id="pikeville-budget-2026" />{" "}The proposed project&rsquo;s
+            <Cite id="pikeville-audit-2024" />{" "}The FY2026-27 budget runs
+            $29.2 million.
+            <Cite id="pikeville-budget-fy27" />{" "}The proposed project&rsquo;s
             initial phase exceeds $250 million of capital investment, much
             of it computing equipment the city itself notes is &ldquo;subject
             to standard Kentucky personal property tax assessments,&rdquo;
             and the city has said it will not cut local taxes as an
             incentive.
-            <Cite id="pikeville-review-details" />{" "}Two honest observations
-            follow. First, because the city&rsquo;s property-tax slice is
-            small today, taxes alone may add hundreds of thousands, not
-            tens of millions, per year at the initial 25–30 MW scale; the
-            county and school district collect their own shares on top.
-            Second, that is exactly why the Development Agreement matters:
-            negotiated revenue (a land <em>lease</em>{" "}rather than a sale,
-            host-community payments, utility margins) can exceed what the
-            tax tables produce, and those terms are set now or never.
+            <Cite id="pikeville-review-details" />
+          </p>
+          <p>
+            Kentucky&rsquo;s official 2025 rate tables make the tax math
+            concrete. Computer equipment is taxed at the state&rsquo;s
+            45-cent rate plus full local rates: 44.7 cents across Pike
+            County&rsquo;s districts, 14.6 cents for the City of Pikeville,
+            and 74.7 to 82.8 cents for the school district, roughly{" "}
+            <strong>$1.80 per $100 of value, every year</strong>.
+            <Cite id="ky-dor-rates-2025" />{" "}On $150 million of servers,
+            that is about $2.7 million a year in total property taxes while
+            the equipment holds its value, and the split is the real story:{" "}
+            <strong>the school district collects the most, around $1.1
+            million a year</strong>; the county&rsquo;s districts about
+            $670,000; the state about $675,000; and the city itself only
+            about $220,000, against its current $945,000 property-tax line.
+            <Cite id="ky-dor-rates-2025" />
+            <Cite id="pikeville-budget-fy27" />{" "}Server values depreciate,
+            but data center hardware is replaced on a constant cycle, which
+            keeps assessments replenished.
+          </p>
+          <p>
+            <strong>The city&rsquo;s sleeper revenue stream is the electric
+            franchise.</strong>{" "}Under a franchise agreement on file with
+            state regulators, Kentucky Power pays the city 3% of all
+            revenues from electric service inside city limits.
+            <Cite id="psc-pikeville-franchise" />{" "}That line is budgeted at
+            $730,000 for FY2026-27, which implies roughly $24 million of
+            electricity sold in the entire city today.
+            <Cite id="pikeville-budget-fy27" />{" "}A 30 MW data center running
+            around the clock would buy nearly that much power by itself
+            (about $16-21 million a year at typical industrial prices),
+            adding roughly <strong>$470,000 to $630,000 a year</strong>{" "}to
+            the franchise line; at the 75-100 MW build-out, $1.6-2.1
+            million a year. Two caveats: the facility&rsquo;s service must
+            actually be billed inside city limits, and the current
+            franchise term runs ten years from April 2020, so renewal on
+            the same terms is an assumption, not a guarantee.
+            <Cite id="psc-pikeville-franchise" />{" "}Combined with the
+            equipment taxes and whatever land terms are negotiated (a{" "}
+            <em>lease</em>{" "}rather than a sale, host-community payments), a
+            city share of $1-2 million a year at the initial phase is
+            arithmetic, not optimism; the Development Agreement decides
+            whether it happens.
           </p>
           <p>
             What disciplined banking could build. If the city set aside a

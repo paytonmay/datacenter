@@ -8,7 +8,7 @@ The site is not funded by or coordinated with the city, the developer, the utili
 
 - [Home](https://pikevilledatacenter.com/): What the site covers and how it handles facts
 - [Pros & Cons](https://pikevilledatacenter.com/pros-cons): The quick version: the case for and the concerns, topic by topic, with links to the deep dives
-- [Ideas](https://pikevilledatacenter.com/ideas): How the city could leverage the deal: waste-heat reuse for neighboring industry, a permanent investment fund modeled on Alaska/New Mexico/North Dakota/West Virginia precedents (with scenario math against Pikeville's actual budget), and deal structures (lease vs. sale, land-tied commitments, enforceable milestones)
+- [Ideas](https://pikevilledatacenter.com/ideas): How the city could leverage the deal: waste-heat reuse for neighboring industry (including the city's planned $6M spec building in the same park), a permanent investment fund modeled on Alaska/New Mexico/North Dakota/West Virginia precedents, and deal structures (lease vs. sale, land-tied commitments, enforceable milestones). Includes the actual 2025 KY property tax rates (computing equipment taxed ~$1.80/$100 across districts; the school district is the largest collector) and the city's 3% electric franchise fee on in-city power sales, computed against Pikeville's FY2026-27 budget
 - [The Basics](https://pikevilledatacenter.com/basics): What a data center is, the types (hyperscale, colocation, crypto, AI), and where a 25–30 MW facility fits
 - [Map](https://pikevilledatacenter.com/map): The Kentucky Enterprise Industrial Park site with distance rings to the nearest homes
 - [Noise](https://pikevilledatacenter.com/noise): Measured decibel levels by equipment type, real complaint cases, standards, and mitigation
