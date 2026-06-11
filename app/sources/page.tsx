@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Sources",
   description:
     "Every source cited on this site, numbered and linked — government reports, peer-reviewed studies, utility filings, and journalism.",
+  alternates: { canonical: "/sources" },
 };
 
 const kindLabels: Record<string, string> = {

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Health Concerns: What the Evidence Shows",
   description:
     "Data center health concerns sorted by evidence strength: what's documented, what's alleged but unresolved, and what has no supporting evidence — noise, diesel exhaust, EMF, water, and more.",
+  alternates: { canonical: "/health" },
 };
 
 export default function HealthPage() {

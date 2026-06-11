@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "What Happened in Other Towns",
   description:
     "Public opinion on data centers, what drives opposition, towns that rejected projects, towns that embraced them — and what each actually got.",
+  alternates: { canonical: "/communities" },
 };
 
 export default function CommunitiesPage() {

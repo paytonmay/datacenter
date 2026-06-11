@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "The Basics: Types & Sizes",
   description:
     "What a data center is, the different types — hyperscale, colocation, enterprise, edge, AI, and crypto — how big they get, and where a 25–30 MW facility fits.",
+  alternates: { canonical: "/basics" },
 };
 
 export default function BasicsPage() {

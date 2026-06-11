@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Map: The Site & Its Neighbors",
   description:
     "An interactive map of the Kentucky Enterprise Industrial Park with distance rings and the nearest residential areas — plus what the site's terrain means for noise.",
+  alternates: { canonical: "/map" },
 };
 
 export default function MapPage() {

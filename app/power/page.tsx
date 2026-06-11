@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Power & Electric Rates",
   description:
     "How much electricity data centers use, why Eastern Kentucky's situation is unusual, and the honest evidence on whether data centers raise or lower electric rates — and what contract terms decide it.",
+  alternates: { canonical: "/power" },
 };
 
 export default function PowerPage() {

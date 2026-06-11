@@ -1,7 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Cite } from "@/components/Cite";
 
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
 const topics = [
+  {
+    href: "/pros-cons",
+    title: "Pros & Cons — the quick version",
+    desc: "The case for and the concerns, topic by topic, on a single page — jobs, bills, water, noise, health, and trust — with links to dig deeper when you want the full evidence.",
+  },
   {
     href: "/basics",
     title: "The Basics",
@@ -66,6 +76,12 @@ export default function Home() {
               className="rounded-lg border border-slate-300 bg-white px-5 py-3 font-bold text-slate-700 hover:bg-slate-50"
             >
               Or learn the basics first
+            </Link>
+            <Link
+              href="/pros-cons"
+              className="rounded-lg border border-slate-300 bg-white px-5 py-3 font-bold text-slate-700 hover:bg-slate-50"
+            >
+              Short on time? Pros &amp; cons →
             </Link>
           </div>
         </div>

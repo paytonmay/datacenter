@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "The Pikeville Proposal",
   description:
     "What the proposed data center at the Kentucky Enterprise Industrial Park actually is, according to the City of Pikeville's own published documents — and what hasn't been decided yet.",
+  alternates: { canonical: "/pikeville" },
 };
 
 export default function PikevillePage() {

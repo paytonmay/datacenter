@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Water: Cooling Systems Compared",
   description:
     "The different data center cooling systems and how much water each really uses — from millions of gallons a day to about as much as an office building. Plus what's in the discharge water, and how it's regulated.",
+  alternates: { canonical: "/water" },
 };
 
 export default function WaterPage() {

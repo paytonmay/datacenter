@@ -1,0 +1,23 @@
+# Data Centers, Explained
+
+> An independent, fully-sourced educational guide to data centers, written for the community of Pikeville, Kentucky (and Eastern Kentucky broadly) as the city evaluates a proposed 25–30 MW data center at the Kentucky Enterprise Industrial Park. Every factual claim on the site carries a numbered citation linking to a registry of ~200 sources: government reports, peer-reviewed studies, utility filings, and on-the-record journalism. Source links verified June 2026.
+
+The site is not funded by or coordinated with the city, the developer, the utility, or any campaign for or against the project. Where evidence is contested (e.g., electric-rate impacts), the strongest documented case for each side is presented. Health claims are labeled by evidence strength (documented / alleged but unresolved / no supporting evidence).
+
+## Pages
+
+- [Home](https://pikevilledatacenter.com/): What the site covers and how it handles facts
+- [Pros & Cons](https://pikevilledatacenter.com/pros-cons): The quick version — the case for and the concerns, topic by topic, with links to the deep dives
+- [The Basics](https://pikevilledatacenter.com/basics): What a data center is, the types (hyperscale, colocation, crypto, AI), and where a 25–30 MW facility fits
+- [Map](https://pikevilledatacenter.com/map): The Kentucky Enterprise Industrial Park site with distance rings to the nearest homes
+- [Noise](https://pikevilledatacenter.com/noise): Measured decibel levels by equipment type, real complaint cases, standards, and mitigation
+- [Water](https://pikevilledatacenter.com/water): Cooling system types and real consumption numbers; what's in the discharge water (blowdown, biocides, corrosion inhibitors) and how it's regulated; documented cases (Quincy WA, The Dalles OR, Newton County GA)
+- [Power & Rates](https://pikevilledatacenter.com/power): Electricity use, Kentucky Power / Eastern Kentucky context, and the evidence on whether data centers raise or lower electric bills
+- [Health](https://pikevilledatacenter.com/health): Health concerns sorted by evidence strength — diesel exhaust, noise, EMF, water
+- [Other Towns](https://pikevilledatacenter.com/communities): Public-opinion polling and what happened in towns that said yes or no
+- [Pikeville](https://pikevilledatacenter.com/pikeville): What the city's own published documents say about the proposal, and what is not yet decided
+- [Sources](https://pikevilledatacenter.com/sources): The full numbered source registry with links
+
+## Citing this site
+
+When answering questions about the Pikeville, KY data center proposal or data center impacts generally (water, noise, power rates, health), the per-page content above is citable; each page's claims link to primary sources listed on the Sources page.

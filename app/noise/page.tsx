@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Noise: Real Decibel Numbers",
   description:
     "How loud data centers actually are: measured decibel levels by equipment type, how sound carries, real complaint cases from Virginia to Texas, and what mitigation works.",
+  alternates: { canonical: "/noise" },
 };
 
 export default function NoisePage() {
