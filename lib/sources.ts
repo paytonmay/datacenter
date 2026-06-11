@@ -1168,6 +1168,105 @@ export const sources: Source[] = [
     note: "Regional policy advocacy group.",
   },
 
+  // ── Leveraging the deal: budgets, funds & precedents ────────────
+  {
+    id: "pikeville-audit-2024",
+    title:
+      "City of Pikeville FY2024 audited financial statements (general fund: occupational license fees $12.23M, property taxes $1.07M; 2.0% occupational fee)",
+    publisher: "City of Pikeville, KY (independent audit)",
+    url: "https://pikevilleky.gov/wp-content/uploads/2025/01/AUDIT-2024.pdf",
+    year: "2024",
+    kind: "local",
+  },
+  {
+    id: "pikeville-budget-2026",
+    title:
+      "Pikeville budget focuses on public safety, development (FY2026: ~$28M general fund expenses; occupational payroll tax projected over $10M)",
+    publisher: "Appalachian News-Express",
+    url: "https://www.news-expressky.com/news/pikeville-budget-focuses-on-public-safety-development/article_f3517a36-9129-4444-9b7e-aef0fd2bec64.html",
+    year: "2025",
+    kind: "news",
+  },
+  {
+    id: "wv-hb2014",
+    title:
+      "West Virginia HB 2014 (2025), enrolled text: high-impact data center property taxes distributed 50% to a Personal Income Tax Reduction Fund, 30% to the host county",
+    publisher: "West Virginia Legislature",
+    url: "https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=hb2014+sub1+enr.htm&yr=2025&sesstype=RS&billtype=B&houseorig=H&i=2014",
+    year: "2025",
+    kind: "government",
+  },
+  {
+    id: "wv-hb2014-counties",
+    title:
+      "Tax formula amended after West Virginia counties push back on data center bill (host-county share raised to 30%)",
+    publisher: "Parkersburg News and Sentinel",
+    url: "https://www.newsandsentinel.com/news/business/2025/04/power-play-tax-formula-amended-after-west-virginia-counties-push-back-on-morrisey-data-centers/",
+    year: "2025",
+    kind: "news",
+  },
+  {
+    id: "wvcbp-hb2014",
+    title:
+      "HB 2014 would divert millions annually in local property tax revenue for schools and public safety to fund income tax cuts",
+    publisher: "West Virginia Center on Budget & Policy",
+    url: "https://wvpolicy.org/hb-2014-would-preempt-local-control-divert-millions-annually-in-local-property-tax-revenue-for-schools-and-public-safety-to-fund-income-tax-cuts/",
+    year: "2025",
+    kind: "industry",
+    note: "Progressive policy group; critical perspective on the fund-diversion model.",
+  },
+  {
+    id: "loudoun-faq-residents",
+    title:
+      "How does data center revenue affect residents? (real property tax rate cut every year for a decade; 38% of general fund revenue; $100M+ new revenue per year)",
+    publisher: "Loudoun County, VA government",
+    url: "https://www.loudoun.gov/Faq.aspx?QID=1793",
+    kind: "government",
+  },
+  {
+    id: "apfc",
+    title:
+      "Alaska Permanent Fund Corporation (oil revenue invested on behalf of current and future Alaskans; fund ~$85 billion, FY2025)",
+    publisher: "Alaska Permanent Fund Corporation",
+    url: "https://apfc.org/",
+    kind: "government",
+  },
+  {
+    id: "ak-pfd-2025",
+    title:
+      "Department of Revenue announces 2025 Permanent Fund Dividend amount ($1,000 per eligible Alaskan)",
+    publisher: "Alaska Department of Revenue",
+    url: "https://dor.alaska.gov/department-of-revenue/news-detail/2025/09/22/department-of-revenue-announces-2025-permanent-fund-dividend-amount",
+    year: "2025",
+    kind: "government",
+  },
+  {
+    id: "nm-landgrant",
+    title:
+      "New Mexico taps Land Grant Permanent Fund for early care and education (2022 constitutional amendment: +1.25% draw, 60% to early childhood, ~$150M/yr)",
+    publisher: "New America",
+    url: "https://www.newamerica.org/education-policy/edcentral/new-mexico-taps-land-grant-permanent-fund-for-early-care-and-education/",
+    year: "2022",
+    kind: "industry",
+    note: "Think tank analysis of the amendment mechanics.",
+  },
+  {
+    id: "nd-legacy",
+    title:
+      "North Dakota Legacy Fund (oil tax revenue; earnings defined as a percent of 5-year average value; $686.9M transferred to the state general fund, 2023–25 biennium)",
+    publisher: "Office of the North Dakota State Treasurer",
+    url: "https://www.treasurer.nd.gov/north-dakota-legacy-fund-0",
+    kind: "government",
+  },
+  {
+    id: "krs-66-480",
+    title:
+      "KRS 66.480: Investment of public funds — what Kentucky local governments may invest in (government obligations, insured or collateralized deposits, highly rated paper)",
+    publisher: "Kentucky General Assembly",
+    url: "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53011",
+    kind: "government",
+  },
+
   // ── Eastern Kentucky track record ───────────────────────────────
   {
     id: "gem-belfry",

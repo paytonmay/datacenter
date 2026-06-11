@@ -13,6 +13,11 @@ const topics = [
     desc: "The case for and the concerns, topic by topic, on a single page — jobs, bills, water, noise, health, and trust — with links to dig deeper when you want the full evidence.",
   },
   {
+    href: "/ideas",
+    title: "Ideas: leveraging the deal",
+    desc: "If the city proceeds, how could it get lasting value? Waste-heat reuse, permanent investment funds that cut taxes, and deal structures that survive ownership changes — each grounded in what another community actually did.",
+  },
+  {
     href: "/basics",
     title: "The Basics",
     desc: "What a data center actually is, the different types — from small crypto mines to giant AI campuses — and where a 25–30 MW facility fits on that spectrum.",

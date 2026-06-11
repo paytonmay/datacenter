@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const primary = [
   { href: "/pros-cons", label: "Pros & Cons" },
+  { href: "/ideas", label: "Ideas" },
   { href: "/pikeville", label: "Pikeville" },
   { href: "/map", label: "Map" },
 ];

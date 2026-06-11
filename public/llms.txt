@@ -8,6 +8,7 @@ The site is not funded by or coordinated with the city, the developer, the utili
 
 - [Home](https://pikevilledatacenter.com/): What the site covers and how it handles facts
 - [Pros & Cons](https://pikevilledatacenter.com/pros-cons): The quick version — the case for and the concerns, topic by topic, with links to the deep dives
+- [Ideas](https://pikevilledatacenter.com/ideas): How the city could leverage the deal — waste-heat reuse for neighboring industry, a permanent investment fund modeled on Alaska/New Mexico/North Dakota/West Virginia precedents (with scenario math against Pikeville's actual budget), and deal structures (lease vs. sale, land-tied commitments, enforceable milestones)
 - [The Basics](https://pikevilledatacenter.com/basics): What a data center is, the types (hyperscale, colocation, crypto, AI), and where a 25–30 MW facility fits
 - [Map](https://pikevilledatacenter.com/map): The Kentucky Enterprise Industrial Park site with distance rings to the nearest homes
 - [Noise](https://pikevilledatacenter.com/noise): Measured decibel levels by equipment type, real complaint cases, standards, and mitigation
