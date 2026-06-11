@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = {
   title: "Water: Cooling Systems Compared",
   description:
-    "The different data center cooling systems and how much water each really uses — from millions of gallons a day to about as much as an office building.",
+    "The different data center cooling systems and how much water each really uses — from millions of gallons a day to about as much as an office building. Plus what's in the discharge water, and how it's regulated.",
 };
 
 export default function WaterPage() {
@@ -287,6 +287,127 @@ export default function WaterPage() {
               <Cite id="dcd-douglas-county" />
             </li>
           </ul>
+        </Section>
+
+        <Section title="What about contaminants? What comes back out, and how it's policed">
+          <p>
+            Evaporative cooling doesn&rsquo;t just take water in — it sends
+            some back. Because evaporation leaves minerals behind, the
+            recirculating water steadily concentrates dissolved solids
+            (calcium, magnesium, chloride, silica), and a portion is
+            periodically flushed out as blowdown. To keep the towers
+            themselves healthy, water-treatment vendors also dose the loop
+            with chemicals — biocides to control bacteria and algae, plus
+            scale and corrosion inhibitors — and EPA&rsquo;s own guidance
+            notes that discharged water must still meet water quality
+            standards.
+            <Cite id="epa-watersense-towers" /> A 2026 UC Berkeley law school
+            report states it directly: data centers can affect water resources
+            &ldquo;by discharging wastewater that contains concentrated
+            minerals, chemical additives, and other pollutants into surface
+            water or groundwater supplies.&rdquo;
+            <Cite id="clee-berkeley-water" /> Closed-loop designs largely
+            sidestep the issue — a sealed loop is filled once, so there is no
+            routine blowdown to dispose of.
+            <Cite id="microsoft-zero-water" />
+          </p>
+          <p>
+            Two legal paths govern that discharge. If blowdown goes to the
+            city sewer — the common case — the wastewater utility regulates
+            it under the federal pretreatment program, which exists precisely
+            to keep industrial discharges from overwhelming a treatment plant
+            or passing through it untreated.
+            <Cite id="epa-pretreatment" /> If a facility discharges directly
+            to a creek or river instead, it needs its own Clean Water Act
+            (NPDES) permit, with numeric limits on what comes out —
+            temperature and pH included — plus monitoring and public
+            reporting.
+            <Cite id="epa-npdes-basics" />
+          </p>
+          <p>The track record, with names attached:</p>
+          <ul>
+            <li>
+              <strong>Quincy, Washington (the clearest documented case):</strong>{" "}
+              mineral-rich cooling discharge from data centers strained the
+              city&rsquo;s wastewater plant, which was never designed for it,
+              and pushed dissolved-solids levels past the state&rsquo;s 500
+              mg/L guideline for water recharged into the aquifer. The fix:
+              Microsoft paid the entire $31 million cost of a dedicated
+              water-reuse utility — operational in 2021, run by the city
+              under a 30-year agreement — that now treats and recycles about
+              138 million gallons of cooling water a year instead of
+              discharging it.
+              <Cite id="epa-quincy-reuse" /> The problem was real and the
+              problem was fixable; the question was who pays.
+            </li>
+            <li>
+              <strong>The Dalles, Oregon (the disclosure problem):</strong>{" "}
+              the Columbia River Inter-Tribal Fish Commission told the Oregon
+              governor&rsquo;s data center task force in 2026 that discharges
+              can add thermal stress to a river that has already lost nearly
+              80% of its salmon runs, and could contain chemicals — including
+              PFAS and biocides — many of which aren&rsquo;t disclosed, with
+              &ldquo;virtually no emergency planning&rdquo; for spills.
+              <Cite id="sierra-dalles-critfc" /> These are concerns about
+              what <em>could</em> be in the water, raised because nobody
+              outside the companies knows the chemical list.
+            </li>
+            <li>
+              <strong>Georgia (the contested case):</strong> the Newton
+              County well complaints described above escalated — after
+              residents&rsquo; jars of discolored water reached a May 2026
+              congressional hearing, EPA directed its regional office to
+              gather information from Georgia regulators, while stressing
+              this is fact-finding, not a formal investigation. Meta points
+              to the groundwater study it commissioned, which found no link
+              to its construction, and notes its operating water comes from
+              the county utility.
+              <Cite id="cbs-atlanta-epa-water" /> The dispute is hard to
+              resolve partly because nobody tested the wells before
+              construction began.
+              <Cite id="sfx-newton-wells" />
+            </li>
+          </ul>
+          <p>
+            The other contamination pathway has nothing to do with cooling:{" "}
+            <strong>fuel</strong>. Backup generators mean diesel stored on
+            site, and EPA calls leaking underground storage tanks &ldquo;a
+            common source of groundwater contamination&rdquo; — petroleum
+            contains benzene, a known carcinogen.
+            <Cite id="epa-ust" /> Federal rules require facilities storing
+            oil to maintain spill-prevention (SPCC) plans designed to keep it
+            out of waterways.
+            <Cite id="epa-spcc" /> A 2026 fact-check that asked squarely
+            &ldquo;can data centers contaminate wells and other water
+            sources?&rdquo; answered yes — through diesel leaks or improper
+            wastewater discharge — but <em>if</em> containment fails. We
+            found no documented U.S. case of data center cooling discharge
+            contaminating drinking water; the documented problems have been
+            dissolved-solids loads on small treatment plants (Quincy),
+            construction-era sediment disputes (Georgia), and secrecy about
+            what&rsquo;s in the water (The Dalles). The risk is a management
+            and enforcement question, not an inevitability.
+            <Cite id="gigafact-wells" />
+          </p>
+          <Callout tone="info" title="What this means for Pikeville">
+            Four things worth asking for in writing while the Development
+            Agreement is still being negotiated: <strong>(1)</strong> the
+            cooling design — a sealed closed loop produces little or no
+            routine discharge, while open towers send blowdown to the
+            city&rsquo;s own wastewater plant;
+            <Cite id="epa-watersense-towers" /> <strong>(2)</strong> the
+            water-treatment chemical list and discharge volumes, disclosed up
+            front — The Dalles shows that secrecy, not chemistry, is what
+            breeds distrust;
+            <Cite id="sierra-dalles-critfc" /> <strong>(3)</strong> the fuel
+            spill-prevention (SPCC) plan and secondary containment for diesel
+            storage;
+            <Cite id="epa-spcc" /> and <strong>(4)</strong> baseline water
+            testing of nearby wells and the Levisa Fork before construction —
+            Georgia&rsquo;s dispute remains unresolvable largely because no
+            one has &ldquo;before&rdquo; data.
+            <Cite id="sfx-newton-wells" />
+          </Callout>
         </Section>
 
         <NextPage href="/power" label="Power use & what it means for your electric bill" />

@@ -995,6 +995,86 @@ export const sources: Source[] = [
     kind: "industry",
   },
 
+  // ── Water quality, discharge & contamination ────────────────────
+  {
+    id: "clee-berkeley-water",
+    title:
+      "Regulating Data Center Water Use in California (cooling wastewater can carry concentrated minerals, chemical additives, and other pollutants)",
+    publisher:
+      "Center for Law, Energy & the Environment, UC Berkeley School of Law",
+    url: "https://www.law.berkeley.edu/research/clee/research/wheeler/water-innovation/data-center-water-use/",
+    year: "2026",
+    kind: "peer-reviewed",
+  },
+  {
+    id: "epa-pretreatment",
+    title:
+      "National Pretreatment Program (how industrial discharges into municipal sewer systems are regulated)",
+    publisher: "U.S. EPA",
+    url: "https://www.epa.gov/npdes/national-pretreatment-program",
+    kind: "government",
+  },
+  {
+    id: "epa-npdes-basics",
+    title:
+      "NPDES Permit Basics (Clean Water Act permits for direct discharges: numeric limits, monitoring, public reporting)",
+    publisher: "U.S. EPA",
+    url: "https://www.epa.gov/npdes/npdes-permit-basics",
+    kind: "government",
+  },
+  {
+    id: "epa-quincy-reuse",
+    title:
+      "Water Reuse Case Study: Quincy, Washington (data center discharge pushed TDS past state guideline; Microsoft-funded $31M reuse utility opened 2021)",
+    publisher: "U.S. EPA",
+    url: "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+    kind: "government",
+  },
+  {
+    id: "sierra-dalles-critfc",
+    title:
+      "Data Centers Are Hogging This Town's Water (CRITFC to Oregon governor's task force: thermal stress, undisclosed chemicals including PFAS and biocides, no spill planning)",
+    publisher: "Sierra (Sierra Club magazine)",
+    url: "https://www.sierraclub.org/sierra/data-centers-are-hogging-town-s-water",
+    year: "2026",
+    kind: "news",
+    note: "Published by the Sierra Club, an environmental advocacy organization.",
+  },
+  {
+    id: "cbs-atlanta-epa-water",
+    title:
+      "AOC presses EPA over Morgan County drinking water concerns as Meta defends Georgia data center operations (EPA fact-gathering, not a formal investigation)",
+    publisher: "CBS News Atlanta",
+    url: "https://www.cbsnews.com/atlanta/news/aoc-presses-epa-over-morgan-county-drinking-water-concerns-tied-to-georgia-data-center-development/",
+    year: "2026",
+    kind: "news",
+  },
+  {
+    id: "epa-ust",
+    title:
+      "Learn About Underground Storage Tanks (leaking USTs are a common source of groundwater contamination; petroleum contains benzene, a known carcinogen)",
+    publisher: "U.S. EPA",
+    url: "https://www.epa.gov/ust/learn-about-underground-storage-tanks-usts",
+    kind: "government",
+  },
+  {
+    id: "epa-spcc",
+    title:
+      "Oil Spill Prevention and Preparedness Regulations (SPCC plans to keep stored oil out of waterways)",
+    publisher: "U.S. EPA",
+    url: "https://www.epa.gov/oil-spills-prevention-and-preparedness-regulations",
+    kind: "government",
+  },
+  {
+    id: "gigafact-wells",
+    title:
+      "Can data centers contaminate wells and other water sources? (fact brief: yes — via diesel leaks or improper wastewater discharge, if containment fails)",
+    publisher: "Gigafact / Maine Trust for Local News",
+    url: "https://gigafact.org/fact-briefs/can-data-centers-contaminate-wells-and-other-water-sources-fact-brief/",
+    year: "2026",
+    kind: "news",
+  },
+
   // ── Waste-heat reuse ────────────────────────────────────────────
   {
     id: "ramboll-odense",
