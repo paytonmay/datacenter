@@ -28,18 +28,18 @@ export default function WaterPage() {
         <Section title="The cooling systems, plainly">
           <ul>
             <li>
-              <strong>Open cooling towers (evaporative)</strong> — warm water
+              <strong>Open cooling towers (evaporative)</strong>{" "}— warm water
               is sprayed through outdoor towers; evaporation carries the heat
               away. Energy-efficient, but the thirstiest design: roughly 6.75
               million gallons per year <em>per megawatt</em>, per Uptime
               Institute.
-              <Cite id="uptime-water" /> Some water is also regularly
+              <Cite id="uptime-water" />{" "}Some water is also regularly
               discharged to the sewer as &ldquo;blowdown&rdquo; to flush out
               concentrated minerals.
               <Cite id="epa-watersense-towers" />
             </li>
             <li>
-              <strong>Air-cooled (dry) systems</strong> — giant
+              <strong>Air-cooled (dry) systems</strong>{" "}— giant
               radiator-and-fan units reject heat straight to the air. Near
               zero water, but more electricity (evaporative assist can cut
               peak-summer cooling electricity 10–35%) and more fan noise.
@@ -53,12 +53,12 @@ export default function WaterPage() {
               <Cite id="uptime-water" />
             </li>
             <li>
-              <strong>Adiabatic / hybrid</strong> — dry coolers that mist
+              <strong>Adiabatic / hybrid</strong>{" "}— dry coolers that mist
               water only on the hottest days. Low, seasonal water use.
               <Cite id="uptime-water" />
             </li>
             <li>
-              <strong>Closed-loop, direct-to-chip liquid cooling</strong> —
+              <strong>Closed-loop, direct-to-chip liquid cooling</strong>{" "}—
               the new AI-era standard. A sealed water loop is filled once at
               construction and recirculated indefinitely; Microsoft says its
               zero-water-for-cooling design avoids more than 125 million
@@ -67,7 +67,7 @@ export default function WaterPage() {
               <Cite id="microsoft-zero-water" />
             </li>
             <li>
-              <strong>Immersion cooling</strong> — servers submerged in
+              <strong>Immersion cooling</strong>{" "}— servers submerged in
               non-conductive fluid; essentially no on-site water. Still
               niche (crypto, HPC).
               <Cite id="uptime-water" />
@@ -120,18 +120,18 @@ export default function WaterPage() {
             Math: 30 MW × 8,760 hours = 262.8 million kWh/yr; multiply by the
             cited WUE and convert liters to gallons. WUE inputs: Uptime
             Institute,
-            <Cite id="uptime-water" /> industry average,
-            <Cite id="uptime-water" /> Microsoft,
-            <Cite id="microsoft-zero-water" /> Meta.
-            <Cite id="meta-edi" /> The closed-loop row uses Microsoft&rsquo;s
+            <Cite id="uptime-water" />{" "}industry average,
+            <Cite id="uptime-water" />{" "}Microsoft,
+            <Cite id="microsoft-zero-water" />{" "}Meta.
+            <Cite id="meta-edi" />{" "}The closed-loop row uses Microsoft&rsquo;s
             real Wisconsin facility: 2.8M gallons/yr in Phase 1, ~8.4M
             gallons/yr at later phases.
             <Cite id="wpr-mount-pleasant" />
           </p>
           <p>
-            For comparison: Google disclosed that its <em>average</em> data
+            For comparison: Google disclosed that its <em>average</em>{" "}data
             center campus used about 450,000 gallons per day in 2021
-            <Cite id="google-cooling-blog" /> — so a worst-case evaporative 30
+            <Cite id="google-cooling-blog" />{" "}— so a worst-case evaporative 30
             MW build would behave like a typical Google campus, while a
             closed-loop build would use about as much water as a large office
             park.
@@ -144,13 +144,13 @@ export default function WaterPage() {
             with the projections being independently verified, and with an
             already-approved withdrawal permit whose capacity is well above
             projected needs.
-            <Cite id="pikeville-review-details" /> The key questions worth
+            <Cite id="pikeville-review-details" />{" "}The key questions worth
             asking as details emerge: <strong>which cooling design</strong>{" "}
             the end user will commit to in writing, what the{" "}
-            <strong>peak summer-day</strong> demand is (academic modeling
+            <strong>peak summer-day</strong>{" "}demand is (academic modeling
             finds peak-day demand ~3.6× the average is what stresses small
             municipal systems),
-            <Cite id="arxiv-municipal" /> and how cooling-tower blowdown, if
+            <Cite id="arxiv-municipal" />{" "}and how cooling-tower blowdown, if
             any, will be handled at the wastewater plant.
             <Cite id="epa-watersense-towers" />
           </Callout>
@@ -161,19 +161,19 @@ export default function WaterPage() {
             Water and electricity trade against each other. Evaporating water
             is the cheapest way (in energy) to shed heat; going dry costs
             more electricity.
-            <Cite id="clearcomfort-tradeoff" /> Google has argued
+            <Cite id="clearcomfort-tradeoff" />{" "}Google has argued
             water-cooling cuts its energy use about 10% versus air cooling.
-            <Cite id="google-cooling-blog" /> There&rsquo;s also a hidden
+            <Cite id="google-cooling-blog" />{" "}There&rsquo;s also a hidden
             ledger: peer-reviewed research found that roughly{" "}
             <strong>75% of data centers&rsquo; total water footprint is
-            indirect</strong> — consumed by the power plants generating their
+            indirect</strong>{" "}— consumed by the power plants generating their
             electricity, not at the site itself.
-            <Cite id="siddik-2021" /> A &ldquo;zero-water&rdquo; data center
+            <Cite id="siddik-2021" />{" "}A &ldquo;zero-water&rdquo; data center
             still drives water use somewhere on the grid. Nationally, data
             centers consumed about 66 billion liters (~17 billion gallons)
             directly in 2023, a figure the federal LBNL report projects could
             double or quadruple by 2028.
-            <Cite id="lbnl-2024" /> The industry trend helps here: AI chips
+            <Cite id="lbnl-2024" />{" "}The industry trend helps here: AI chips
             run too hot for air alone, so new builds increasingly use sealed
             direct-to-chip loops — which happen to nearly eliminate on-site
             water use.
@@ -190,45 +190,45 @@ export default function WaterPage() {
             Meta&rsquo;s Odense, Denmark plant recovers heat for the city
             network (about 45 MW of heat production serving thousands of
             homes and a hospital),
-            <Cite id="ramboll-odense" /> Microsoft&rsquo;s data centers near
+            <Cite id="ramboll-odense" />{" "}Microsoft&rsquo;s data centers near
             Helsinki now supply up to 180 MW of district heat — on track to
             cover ~40% of heating demand for an area of 250,000 people,
-            <Cite id="fortum-microsoft" /> Google&rsquo;s Hamina facility
+            <Cite id="fortum-microsoft" />{" "}Google&rsquo;s Hamina facility
             will cover up to 80% of its town&rsquo;s heating demand free of
             charge,
-            <Cite id="google-hamina-heat" /> and Stockholm&rsquo;s utility
-            literally <em>pays</em> data centers for their heat.
-            <Cite id="stockholm-data-parks" /> Germany now requires new data
+            <Cite id="google-hamina-heat" />{" "}and Stockholm&rsquo;s utility
+            literally <em>pays</em>{" "}data centers for their heat.
+            <Cite id="stockholm-data-parks" />{" "}Germany now requires new data
             centers to reuse 10–20% of their energy as heat.
             <Cite id="germany-enefg" />
           </p>
           <p>
-            The honest catch: data center exhaust is <em>low-grade</em> heat
+            The honest catch: data center exhaust is <em>low-grade</em>{" "}heat
             — roughly 100°F air from air-cooled halls (hotter, more usable
             50–60°C water from modern liquid-cooled designs)
-            <Cite id="dck-heat-grade" /> — and using it requires heat pumps
+            <Cite id="dck-heat-grade" />{" "}— and using it requires heat pumps
             plus, crucially, <strong>a heat customer nearby</strong>. The
             Nordic projects work because city-wide hot-water networks already
             existed; almost no U.S. town has one,
-            <Cite id="eesi-thermal" /> and we found no documented example of
+            <Cite id="eesi-thermal" />{" "}and we found no documented example of
             a small-city American data center heating homes.
           </p>
           <p>
-            What <em>is</em> precedented in the U.S. is single-neighbor
+            What <em>is</em>{" "}precedented in the U.S. is single-neighbor
             reuse: Amazon&rsquo;s Seattle towers are warmed by ~5 MW of waste
             heat piped across the street from a data-dense building,
-            <Cite id="amazon-denny" /> Notre Dame&rsquo;s server racks heat
+            <Cite id="amazon-denny" />{" "}Notre Dame&rsquo;s server racks heat
             South Bend&rsquo;s municipal greenhouse, saving the city about
             $70,000 a year,
-            <Cite id="nd-greenhouse" /> and in the UK a 28 kW micro data
+            <Cite id="nd-greenhouse" />{" "}and in the UK a 28 kW micro data
             center cut a public swimming pool&rsquo;s gas bill 62%.
-            <Cite id="deep-green-pool" /> A regional policy group, ReImagine
+            <Cite id="deep-green-pool" />{" "}A regional policy group, ReImagine
             Appalachia, argues for exactly this model here — using data
             center heat for schools, public buildings, or greenhouses on
             former mine land.
-            <Cite id="reimagine-appalachia" /> For Pikeville, heating the
+            <Cite id="reimagine-appalachia" />{" "}For Pikeville, heating the
             town is not realistic; heating an adjacent greenhouse complex,
-            pool, or campus building is — <em>if</em> heat-recovery plumbing
+            pool, or campus building is — <em>if</em>{" "}heat-recovery plumbing
             is designed in from day one, which is a reasonable thing to raise
             while a Development Agreement is still being negotiated.
           </p>
@@ -237,17 +237,17 @@ export default function WaterPage() {
         <Section title="Where water became a problem — and where it didn't">
           <ul>
             <li>
-              <strong>The Dalles, Oregon:</strong> Google&rsquo;s data
+              <strong>The Dalles, Oregon:</strong>{" "}Google&rsquo;s data
               centers used 355.1 million gallons in 2021 — 29% of the entire
               city&rsquo;s water — a fact disclosed only after a 13-month
               public-records fight with the local newspaper.
-              <Cite id="register-dalles" /> Google also funded $28.5 million
+              <Cite id="register-dalles" />{" "}Google also funded $28.5 million
               of city water infrastructure.
-              <Cite id="opb-dalles-deal" /> Lesson: the problem wasn&rsquo;t
+              <Cite id="opb-dalles-deal" />{" "}Lesson: the problem wasn&rsquo;t
               only the volume — it was the secrecy.
             </li>
             <li>
-              <strong>Newton County, Georgia:</strong> residents 1,000 feet
+              <strong>Newton County, Georgia:</strong>{" "}residents 1,000 feet
               from Meta&rsquo;s construction site reported wells running dry
               and sediment; Meta&rsquo;s commissioned study found no
               connection, the county did no pre-construction well survey, and
@@ -255,16 +255,16 @@ export default function WaterPage() {
               <Cite id="sfx-newton-wells" />
             </li>
             <li>
-              <strong>Mesa & Goodyear, Arizona:</strong> desert cities
+              <strong>Mesa & Goodyear, Arizona:</strong>{" "}desert cities
               negotiated tiered water caps (1 up to 4 million gallons/day in
               Mesa)
-              <Cite id="nbc-mesa" /> and in Goodyear, Microsoft agreed to
+              <Cite id="nbc-mesa" />{" "}and in Goodyear, Microsoft agreed to
               switch its design to air cooling and contributed $36M toward a
               wastewater plant.
               <Cite id="aztech-goodyear" />
             </li>
             <li>
-              <strong>Memphis:</strong> xAI pledged an $80M wastewater
+              <strong>Memphis:</strong>{" "}xAI pledged an $80M wastewater
               recycling plant (13 million gallons/day design) to stop drawing
               on the drinking-water aquifer — groundbreaking happened, though
               the project was later paused, a reminder that pledges need
@@ -279,11 +279,11 @@ export default function WaterPage() {
               <Cite id="wpr-mount-pleasant" />
             </li>
             <li>
-              <strong>Loudoun County, Virginia:</strong> the water utility
+              <strong>Loudoun County, Virginia:</strong>{" "}the water utility
               delivers reclaimed (treated wastewater) through purple pipe for
               data center cooling — over 750 million gallons in 2025 —
               sparing the same volume of drinking water.
-              <Cite id="loudoun-water-reclaimed" /> Google&rsquo;s Georgia
+              <Cite id="loudoun-water-reclaimed" />{" "}Google&rsquo;s Georgia
               site similarly cools with recycled municipal effluent.
               <Cite id="dcd-douglas-county" />
             </li>
@@ -302,12 +302,12 @@ export default function WaterPage() {
             scale and corrosion inhibitors — and EPA&rsquo;s own guidance
             notes that discharged water must still meet water quality
             standards.
-            <Cite id="epa-watersense-towers" /> A 2026 UC Berkeley law school
+            <Cite id="epa-watersense-towers" />{" "}A 2026 UC Berkeley law school
             report states it directly: data centers can affect water resources
             &ldquo;by discharging wastewater that contains concentrated
             minerals, chemical additives, and other pollutants into surface
             water or groundwater supplies.&rdquo;
-            <Cite id="clee-berkeley-water" /> Closed-loop designs largely
+            <Cite id="clee-berkeley-water" />{" "}Closed-loop designs largely
             sidestep the issue — a sealed loop is filled once, so there is no
             routine blowdown to dispose of.
             <Cite id="microsoft-zero-water" />
@@ -318,7 +318,7 @@ export default function WaterPage() {
             it under the federal pretreatment program, which exists precisely
             to keep industrial discharges from overwhelming a treatment plant
             or passing through it untreated.
-            <Cite id="epa-pretreatment" /> If a facility discharges directly
+            <Cite id="epa-pretreatment" />{" "}If a facility discharges directly
             to a creek or river instead, it needs its own Clean Water Act
             (NPDES) permit, with numeric limits on what comes out —
             temperature and pH included — plus monitoring and public
@@ -338,7 +338,7 @@ export default function WaterPage() {
               under a 30-year agreement — that now treats and recycles about
               138 million gallons of cooling water a year instead of
               discharging it.
-              <Cite id="epa-quincy-reuse" /> The problem was real and the
+              <Cite id="epa-quincy-reuse" />{" "}The problem was real and the
               problem was fixable; the question was who pays.
             </li>
             <li>
@@ -349,12 +349,12 @@ export default function WaterPage() {
               80% of its salmon runs, and could contain chemicals — including
               PFAS and biocides — many of which aren&rsquo;t disclosed, with
               &ldquo;virtually no emergency planning&rdquo; for spills.
-              <Cite id="sierra-dalles-critfc" /> These are concerns about
-              what <em>could</em> be in the water, raised because nobody
+              <Cite id="sierra-dalles-critfc" />{" "}These are concerns about
+              what <em>could</em>{" "}be in the water, raised because nobody
               outside the companies knows the chemical list.
             </li>
             <li>
-              <strong>Georgia (the contested case):</strong> the Newton
+              <strong>Georgia (the contested case):</strong>{" "}the Newton
               County well complaints described above escalated — after
               residents&rsquo; jars of discolored water reached a May 2026
               congressional hearing, EPA directed its regional office to
@@ -363,7 +363,7 @@ export default function WaterPage() {
               to the groundwater study it commissioned, which found no link
               to its construction, and notes its operating water comes from
               the county utility.
-              <Cite id="cbs-atlanta-epa-water" /> The dispute is hard to
+              <Cite id="cbs-atlanta-epa-water" />{" "}The dispute is hard to
               resolve partly because nobody tested the wells before
               construction began.
               <Cite id="sfx-newton-wells" />
@@ -375,13 +375,13 @@ export default function WaterPage() {
             site, and EPA calls leaking underground storage tanks &ldquo;a
             common source of groundwater contamination&rdquo; — petroleum
             contains benzene, a known carcinogen.
-            <Cite id="epa-ust" /> Federal rules require facilities storing
+            <Cite id="epa-ust" />{" "}Federal rules require facilities storing
             oil to maintain spill-prevention (SPCC) plans designed to keep it
             out of waterways.
-            <Cite id="epa-spcc" /> A 2026 fact-check that asked squarely
+            <Cite id="epa-spcc" />{" "}A 2026 fact-check that asked squarely
             &ldquo;can data centers contaminate wells and other water
             sources?&rdquo; answered yes — through diesel leaks or improper
-            wastewater discharge — but <em>if</em> containment fails. We
+            wastewater discharge — but <em>if</em>{" "}containment fails. We
             found no documented U.S. case of data center cooling discharge
             contaminating drinking water; the documented problems have been
             dissolved-solids loads on small treatment plants (Quincy),
@@ -392,18 +392,18 @@ export default function WaterPage() {
           </p>
           <Callout tone="info" title="What this means for Pikeville">
             Four things worth asking for in writing while the Development
-            Agreement is still being negotiated: <strong>(1)</strong> the
+            Agreement is still being negotiated: <strong>(1)</strong>{" "}the
             cooling design — a sealed closed loop produces little or no
             routine discharge, while open towers send blowdown to the
             city&rsquo;s own wastewater plant;
-            <Cite id="epa-watersense-towers" /> <strong>(2)</strong> the
+            <Cite id="epa-watersense-towers" /> <strong>(2)</strong>{" "}the
             water-treatment chemical list and discharge volumes, disclosed up
             front — The Dalles shows that secrecy, not chemistry, is what
             breeds distrust;
-            <Cite id="sierra-dalles-critfc" /> <strong>(3)</strong> the fuel
+            <Cite id="sierra-dalles-critfc" /> <strong>(3)</strong>{" "}the fuel
             spill-prevention (SPCC) plan and secondary containment for diesel
             storage;
-            <Cite id="epa-spcc" /> and <strong>(4)</strong> baseline water
+            <Cite id="epa-spcc" />{" "}and <strong>(4)</strong>{" "}baseline water
             testing of nearby wells and the Levisa Fork before construction —
             Georgia&rsquo;s dispute remains unresolvable largely because no
             one has &ldquo;before&rdquo; data.

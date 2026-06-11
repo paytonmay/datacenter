@@ -172,12 +172,12 @@ export default function FAQPage() {
             It depends on contract and tariff terms — not on whether the data
             center exists. Near big clusters, wholesale prices rose as much as
             267%,
-            <Cite id="bloomberg-nodes" /> but Kentucky&rsquo;s new large-load
+            <Cite id="bloomberg-nodes" />{" "}but Kentucky&rsquo;s new large-load
             tariffs make very large customers pay at least 80% of forecast
             costs for 15 years,
-            <Cite id="lge-ku-ehlf" /> and Kentucky Power argues large loads
+            <Cite id="lge-ku-ehlf" />{" "}and Kentucky Power argues large loads
             can spread fixed costs and eventually lower rates.
-            <Cite id="hazard-herald-pipeline" /> Rates are set by the state
+            <Cite id="hazard-herald-pipeline" />{" "}Rates are set by the state
             Public Service Commission, not the city.
             <Cite id="pikeville-review-details" />
           </p>
@@ -192,7 +192,7 @@ export default function FAQPage() {
             hum — and the documented fixes were engineering retrofits and
             enforceable decibel limits at the property line.
             <Cite id="time-granbury" />
-            <Cite id="chandler-ordinance" /> The proposed site sits inside an
+            <Cite id="chandler-ordinance" />{" "}The proposed site sits inside an
             industrial park; the map shows exactly how far the nearest homes
             are.
           </p>
@@ -206,7 +206,7 @@ export default function FAQPage() {
             of gallons a day; sealed-loop designs use about as much as an
             office park.
             <Cite id="uptime-water" />
-            <Cite id="microsoft-zero-water" /> The city says its system can
+            <Cite id="microsoft-zero-water" />{" "}The city says its system can
             comfortably meet the described usage and is independently
             verifying the projections — but the design isn&rsquo;t committed
             in writing yet.
@@ -220,10 +220,10 @@ export default function FAQPage() {
             There&rsquo;s no documented case of a normally operating data
             center harming community health; air testing around the most
             controversial U.S. facility found no dangerous levels.
-            <Cite id="memphis-air-tests" /> The evidence-based watch items are
+            <Cite id="memphis-air-tests" />{" "}The evidence-based watch items are
             diesel exhaust from backup generators — a known carcinogen, so
             permitted runtime hours matter
-            <Cite id="iarc-diesel" /> — and chronic noise, which is itself a
+            <Cite id="iarc-diesel" />{" "}— and chronic noise, which is itself a
             documented health stressor.
             <Cite id="eea-noise-deaths" />
           </p>
@@ -237,7 +237,7 @@ export default function FAQPage() {
             the Pike County median — and the city itself says projections are
             not enforceable obligations and will need real enforcement
             mechanisms in any agreement.
-            <Cite id="pikeville-review-details" /> Research elsewhere finds
+            <Cite id="pikeville-review-details" />{" "}Research elsewhere finds
             data centers create few permanent on-site jobs relative to their
             size.
             <Cite id="brookings-employment" />
@@ -250,7 +250,7 @@ export default function FAQPage() {
             Potentially: property taxes — including Kentucky personal property
             tax on the computing equipment, which the city says it will not
             waive
-            <Cite id="pikeville-review-details" /> — plus occupational taxes,
+            <Cite id="pikeville-review-details" />{" "}— plus occupational taxes,
             utility revenue, and whatever lease or host payments get
             negotiated. For scale: the city&rsquo;s entire general fund
             collected about $21.4 million in FY2024.
@@ -264,7 +264,7 @@ export default function FAQPage() {
             The Pikeville City Commission — after the promised public review
             of complete terms. The Commission typically meets the second and
             fourth Monday of each month, open to the public,
-            <Cite id="pikeville-commission" /> and the city accepts comments
+            <Cite id="pikeville-commission" />{" "}and the city accepts comments
             at datacenter@pikevilleky.gov.
             <Cite id="pikeville-review-details" />
           </p>

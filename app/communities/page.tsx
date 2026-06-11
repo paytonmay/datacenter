@@ -64,24 +64,24 @@ export default function CommunitiesPage() {
             A 2025 tracking report counted at least 16 projects worth ~$64
             billion blocked or delayed by local opposition — opposition that
             polls as bipartisan.
-            <Cite id="datacenterwatch" /> Examples with documented outcomes:
+            <Cite id="datacenterwatch" />{" "}Examples with documented outcomes:
           </p>
           <ul>
             <li>
-              <strong>Chesterton, Indiana</strong> — a $1.3B project
+              <strong>Chesterton, Indiana</strong>{" "}— a $1.3B project
               withdrawn after organized resident opposition over air, water,
               wetlands, and home values.
               <Cite id="dcd-chesterton" />
             </li>
             <li>
-              <strong>Peculiar, Missouri</strong> — the &ldquo;Don&rsquo;t
+              <strong>Peculiar, Missouri</strong>{" "}— the &ldquo;Don&rsquo;t
               Dump Data in Peculiar&rdquo; campaign led the planning
               commission to remove data centers from its zoning entirely,
               killing a $1.5B project.
               <Cite id="wapo-peculiar" />
             </li>
             <li>
-              <strong>Tucson, Arizona</strong> — the council unanimously
+              <strong>Tucson, Arizona</strong>{" "}— the council unanimously
               rejected &ldquo;Project Blue,&rdquo; primarily over water in a
               drought region; the project later re-emerged outside city
               limits — a reminder that one body&rsquo;s rejection
@@ -89,7 +89,7 @@ export default function CommunitiesPage() {
               <Cite id="kjzz-tucson" />
             </li>
             <li>
-              <strong>Here in Kentucky</strong> — several counties and cities
+              <strong>Here in Kentucky</strong>{" "}— several counties and cities
               hit pause on data center proposals in 2025–26, and the issue
               featured prominently in 2026 local primaries; the
               Maysville-area hyperscale proposal drew multi-day hearings and
@@ -103,18 +103,18 @@ export default function CommunitiesPage() {
         <Section title="Towns that said yes — and what they got">
           <ul>
             <li>
-              <strong>Loudoun County, Virginia</strong> — collected roughly
+              <strong>Loudoun County, Virginia</strong>{" "}— collected roughly
               $895 million in data center tax revenue in FY2025, projected at
               ~$1.3 billion (about 45% of all county tax revenue) by FY2027;
               the county credits that revenue with funding schools and
               services at lower residential tax rates.
-              <Cite id="loudoun-revenue" /> The same county has a real,
+              <Cite id="loudoun-revenue" />{" "}The same county has a real,
               documented record of noise and visual complaints and is now
               tightening its zoning — both things are true.
               <Cite id="jlarc-2024" />
             </li>
             <li>
-              <strong>New Albany, Ohio</strong> — 40 data centers since 2010
+              <strong>New Albany, Ohio</strong>{" "}— 40 data centers since 2010
               built an enormous business park. But note the structure: the
               town granted 15-year, 100% property tax abatements, and Ohio
               data centers have claimed ~$2.5 billion in state and local tax
@@ -124,11 +124,11 @@ export default function CommunitiesPage() {
               <Cite id="signal-ohio-abatements" />
             </li>
             <li>
-              <strong>The contrast that matters:</strong> Loudoun taxes data
+              <strong>The contrast that matters:</strong>{" "}Loudoun taxes data
               center equipment fully and reaps enormous revenue; New Albany
               abated heavily and gets less per facility. Pikeville&rsquo;s
               stated position — no reduction of local taxes as an incentive
-              <Cite id="pikeville-review-details" /> — puts it on the
+              <Cite id="pikeville-review-details" />{" "}— puts it on the
               Loudoun side of that line, and Kentucky&rsquo;s state sales-tax
               incentive operates at the state level without touching local
               revenue.
@@ -186,7 +186,7 @@ export default function CommunitiesPage() {
             up the crypto wave: &ldquo;I don&rsquo;t think any of them have
             really materialized at the level that anyone hoped they
             would.&rdquo;
-            <Cite id="kentuckynewera-crypto" /> The honest lesson isn&rsquo;t
+            <Cite id="kentuckynewera-crypto" />{" "}The honest lesson isn&rsquo;t
             that projects fail or succeed — it&rsquo;s that{" "}
             <strong>announcements aren&rsquo;t outcomes</strong>, and the
             deals that protected the public were the ones with enforceable
@@ -208,17 +208,17 @@ export default function CommunitiesPage() {
               <Cite id="selc-xai" />
             </li>
             <li>
-              <strong>Secrecy bred distrust everywhere.</strong> The Dalles
+              <strong>Secrecy bred distrust everywhere.</strong>{" "}The Dalles
               fought a newspaper for a year over water numbers;
-              <Cite id="register-dalles" /> Maysville&rsquo;s NDA-shrouded
+              <Cite id="register-dalles" />{" "}Maysville&rsquo;s NDA-shrouded
               proposal drew lawsuits.
-              <Cite id="maysville-weku" /> Pikeville&rsquo;s city government,
+              <Cite id="maysville-weku" />{" "}Pikeville&rsquo;s city government,
               by contrast, published its MOU in full and states it signed no
               NDA — a meaningful difference residents can verify themselves.
               <Cite id="pikeville-press-release" />
             </li>
             <li>
-              <strong>Enforceability decided the economics.</strong> Towns
+              <strong>Enforceability decided the economics.</strong>{" "}Towns
               that negotiated full taxation, minimum payments, and
               commitments tied to the land did best; towns that traded
               abatements for projections did worst.

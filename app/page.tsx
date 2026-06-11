@@ -73,7 +73,7 @@ export default function Home() {
           <p className="mt-6 text-xl leading-relaxed text-slate-600">
             Pikeville is weighing a proposed data center at the Kentucky
             Enterprise Industrial Park.
-            <Cite id="pikeville-press-release" /> Some neighbors see jobs and
+            <Cite id="pikeville-press-release" />{" "}Some neighbors see jobs and
             investment; others worry about noise, water, and electric bills.
             Both deserve real answers, not talking points. This site lays out
             the facts — every claim numbered and linked to its source — so you
@@ -131,8 +131,8 @@ export default function Home() {
           </h2>
           <ul className="mt-4 space-y-3 text-[1.05rem] leading-relaxed text-slate-700">
             <li>
-              <strong>Every claim is cited.</strong> The little numbers like
-              this<Cite id="pikeville-review-details" /> link to a full source
+              <strong>Every claim is cited.</strong>{" "}The little numbers like
+              this<Cite id="pikeville-review-details" />{" "}link to a full source
               list — government reports, peer-reviewed studies, utility
               filings, and on-the-record journalism.
             </li>
@@ -142,12 +142,12 @@ export default function Home() {
               rates), you&rsquo;ll see the strongest documented case for each.
             </li>
             <li>
-              <strong>Claims are labeled by evidence strength.</strong> On the
+              <strong>Claims are labeled by evidence strength.</strong>{" "}On the
               health page, every concern is tagged as documented, alleged but
               unresolved, or lacking evidence.
             </li>
             <li>
-              <strong>No affiliation.</strong> This site isn&rsquo;t funded by
+              <strong>No affiliation.</strong>{" "}This site isn&rsquo;t funded by
               or coordinated with the city, the developer, the utility, or any
               campaign for or against the project.
             </li>

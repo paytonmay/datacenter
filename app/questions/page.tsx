@@ -46,14 +46,14 @@ export default function QuestionsPage() {
         <Section title="Water & discharge">
           <QList>
             <Q>
-              Which <strong>cooling design</strong> will the facility use, committed in
+              Which <strong>cooling design</strong>{" "}will the facility use, committed in
               writing? The difference between open evaporative towers and a sealed
               closed loop is roughly fifty-fold in water use.
               <Cite id="uptime-water" />
               <Cite id="microsoft-zero-water" />
             </Q>
             <Q>
-              What is the projected <strong>peak summer-day</strong> water demand — not
+              What is the projected <strong>peak summer-day</strong>{" "}water demand — not
               just the annual average? Peak-day demand is what stresses small municipal
               systems.
               <Cite id="arxiv-municipal" />
@@ -72,7 +72,7 @@ export default function QuestionsPage() {
               <Cite id="sierra-dalles-critfc" />
             </Q>
             <Q>
-              Will there be <strong>baseline water testing</strong> of nearby wells and
+              Will there be <strong>baseline water testing</strong>{" "}of nearby wells and
               the Levisa Fork before construction? Georgia&rsquo;s well dispute is
               unresolvable largely because nobody has &ldquo;before&rdquo; data.
               <Cite id="sfx-newton-wells" />
@@ -84,20 +84,20 @@ export default function QuestionsPage() {
           <QList>
             <Q>
               Will the agreement set <strong>numeric noise limits at the property
-              line</strong> — including a low-frequency (dBC) limit, not just dBA?
+              line</strong>{" "}— including a low-frequency (dBC) limit, not just dBA?
               Chandler, Arizona wrote enforceable limits into law; some Virginia
               counties now use 65 dBC.
               <Cite id="chandler-ordinance" />
               <Cite id="williamsburg-dbc" />
             </Q>
             <Q>
-              Who <strong>measures and enforces</strong> — and what happens when a limit
+              Who <strong>measures and enforces</strong>{" "}— and what happens when a limit
               is exceeded? Wolfe County neighbors were promised a sound wall and got
               &ldquo;sound blankets.&rdquo;
               <Cite id="lex18-wolfe" />
             </Q>
             <Q>
-              When are <strong>generator tests</strong> run, how often, and are they
+              When are <strong>generator tests</strong>{" "}run, how often, and are they
               restricted to weekday daytime hours?
               <Cite id="va-deq-generators" />
             </Q>
@@ -107,7 +107,7 @@ export default function QuestionsPage() {
         <Section title="Power & your electric bill">
           <QList>
             <Q>
-              Which <strong>tariff</strong> will the facility take service under, and
+              Which <strong>tariff</strong>{" "}will the facility take service under, and
               does it guarantee the customer pays the full cost of serving it — like
               Kentucky&rsquo;s new large-load tariffs requiring at least 80% of
               forecast for 15 years?
@@ -115,13 +115,13 @@ export default function QuestionsPage() {
               <Cite id="kp-igs-tariff" />
             </Q>
             <Q>
-              Who pays for <strong>grid upgrades</strong> — substations, lines — if the
+              Who pays for <strong>grid upgrades</strong>{" "}— substations, lines — if the
               project grows to 75–100 MW, and what happens to those costs if the
               project leaves early?
               <Cite id="pikeville-review-details" />
             </Q>
             <Q>
-              What <strong>collateral or exit protections</strong> exist if the
+              What <strong>collateral or exit protections</strong>{" "}exist if the
               operator scales back — the &ldquo;phantom data center&rdquo; problem
               utilities are now planning around?
               <Cite id="utility-dive-phantom" />
@@ -132,20 +132,20 @@ export default function QuestionsPage() {
         <Section title="Jobs & the local economy">
           <QList>
             <Q>
-              How are the <strong>40 projected permanent jobs defined</strong> — direct
+              How are the <strong>40 projected permanent jobs defined</strong>{" "}— direct
               employees on site, at what wages — and how is compliance measured and
               reported? The city itself says projections are not enforceable
               obligations.
               <Cite id="pikeville-review-details" />
             </Q>
             <Q>
-              What are the <strong>consequences for missing</strong> the jobs numbers —
+              What are the <strong>consequences for missing</strong>{" "}the jobs numbers —
               clawbacks, payments, termination rights? Kentucky&rsquo;s crypto-era
               promises were &ldquo;not always fulfilled.&rdquo;
               <Cite id="kentuckynewera-crypto" />
             </Q>
             <Q>
-              Is there a <strong>local-hire or local-contractor</strong> commitment for
+              Is there a <strong>local-hire or local-contractor</strong>{" "}commitment for
               the 190-job construction phase?
               <Cite id="pikeville-review-details" />
             </Q>
@@ -166,11 +166,11 @@ export default function QuestionsPage() {
               <Cite id="pikeville-review-details" />
             </Q>
             <Q>
-              Is there a <strong>decommissioning obligation</strong> — who removes
+              Is there a <strong>decommissioning obligation</strong>{" "}— who removes
               equipment and restores the site if it shuts down, and is it bonded?
             </Q>
             <Q>
-              Does the agreement require <strong>heat-recovery plumbing</strong> at
+              Does the agreement require <strong>heat-recovery plumbing</strong>{" "}at
               construction, so neighboring park tenants can use the waste heat? Cheap
               now, prohibitive later.
               <Cite id="eesi-thermal" />
@@ -189,12 +189,12 @@ export default function QuestionsPage() {
               <Cite id="epa-spcc" />
             </Q>
             <Q>
-              Are the generators <strong>Tier 4</strong> (the cleanest standard), and
+              Are the generators <strong>Tier 4</strong>{" "}(the cleanest standard), and
               what are the permitted annual runtime hours?
               <Cite id="trinity-va-deq" />
             </Q>
             <Q>
-              What does the <strong>stormwater management</strong> plan require during
+              What does the <strong>stormwater management</strong>{" "}plan require during
               construction — the phase that produced Georgia&rsquo;s sediment
               complaints?
               <Cite id="sfx-newton-wells" />
@@ -205,18 +205,18 @@ export default function QuestionsPage() {
         <Section title="Transparency & accountability">
           <QList>
             <Q>
-              Will the city disclose the <strong>end user</strong> when one signs — and
+              Will the city disclose the <strong>end user</strong>{" "}when one signs — and
               will usage reporting (water, power) be public on an ongoing basis? The
               Dalles took a 13-month records fight to learn its own numbers.
               <Cite id="register-dalles" />
             </Q>
             <Q>
-              Will the <strong>complete agreement</strong> be published with enough time
+              Will the <strong>complete agreement</strong>{" "}be published with enough time
               for meaningful public review before the vote — as the city has promised?
               <Cite id="pikeville-review-details" />
             </Q>
             <Q>
-              If revenue materializes, is any portion <strong>set aside</strong> —
+              If revenue materializes, is any portion <strong>set aside</strong>{" "}—
               banked or invested — rather than absorbed into the annual budget? Other
               places made that choice deliberately, before the money arrived.
               <Cite id="wv-hb2014" />
@@ -234,12 +234,12 @@ export default function QuestionsPage() {
           </p>
           <ul>
             <li>
-              <strong>Chandler, AZ data center noise ordinance</strong> — enforceable
+              <strong>Chandler, AZ data center noise ordinance</strong>{" "}— enforceable
               decibel limits written into law before approval.
               <Cite id="chandler-ordinance" />
             </li>
             <li>
-              <strong>West Virginia HB 2014 (2025), enrolled text</strong> — the
+              <strong>West Virginia HB 2014 (2025), enrolled text</strong>{" "}— the
               data-center property-tax distribution formula, including the
               income-tax-reduction fund.
               <Cite id="wv-hb2014" />
@@ -251,28 +251,28 @@ export default function QuestionsPage() {
               <Cite id="kp-igs-tariff" />
             </li>
             <li>
-              <strong>AEP Ohio data center tariff settlement</strong> — the 85%
+              <strong>AEP Ohio data center tariff settlement</strong>{" "}— the 85%
               minimum-payment structure regulators approved next door.
               <Cite id="aep-ohio-tariff" />
             </li>
             <li>
-              <strong>Virginia JLARC data center study (2024)</strong> — the most
+              <strong>Virginia JLARC data center study (2024)</strong>{" "}— the most
               comprehensive independent state analysis of impacts, positive and
               negative.
               <Cite id="jlarc-2024" />
             </li>
             <li>
-              <strong>EPA water reuse case study: Quincy, WA</strong> — what
+              <strong>EPA water reuse case study: Quincy, WA</strong>{" "}— what
               discharge did to a small city&rsquo;s plant and the company-funded fix.
               <Cite id="epa-quincy-reuse" />
             </li>
             <li>
-              <strong>Loudoun County&rsquo;s own explanation</strong> of how data
+              <strong>Loudoun County&rsquo;s own explanation</strong>{" "}of how data
               center revenue funds rate cuts and services.
               <Cite id="loudoun-faq-residents" />
             </li>
             <li>
-              <strong>Pikeville&rsquo;s own documents</strong> — the executed MOU and
+              <strong>Pikeville&rsquo;s own documents</strong>{" "}— the executed MOU and
               the city&rsquo;s statement of what it is examining.
               <Cite id="pikeville-mou" />
               <Cite id="pikeville-review-details" />
@@ -284,10 +284,10 @@ export default function QuestionsPage() {
           <p>
             Commission meetings are typically the second and fourth Monday of
             each month and are open to the public,
-            <Cite id="pikeville-commission" /> and the city accepts questions
+            <Cite id="pikeville-commission" />{" "}and the city accepts questions
             and comments at datacenter@pikevilleky.gov.
-            <Cite id="pikeville-review-details" /> The{" "}
-            <strong>What&rsquo;s Next</strong> page tracks where the process
+            <Cite id="pikeville-review-details" />{" "}The{" "}
+            <strong>What&rsquo;s Next</strong>{" "}page tracks where the process
             stands and explains how to request public records yourself.
           </p>
         </Callout>

@@ -118,7 +118,7 @@ export default function StatusPage() {
             would be leased or sold, and every enforceable commitment — all of
             it remains to be negotiated and published. That&rsquo;s not a
             criticism; it&rsquo;s the stage the process is in. It&rsquo;s also
-            why questions asked <em>now</em> carry the most weight.
+            why questions asked <em>now</em>{" "}carry the most weight.
             <Cite id="pikeville-review-details" />
           </p>
         </Callout>
@@ -126,20 +126,20 @@ export default function StatusPage() {
         <Section title="How to participate">
           <ul>
             <li>
-              <strong>Go to a meeting.</strong> The City Commission typically
+              <strong>Go to a meeting.</strong>{" "}The City Commission typically
               meets the second and fourth Monday of each month, open to the
               public, with agendas and minutes posted on the city&rsquo;s
               website.
               <Cite id="pikeville-commission" />
             </li>
             <li>
-              <strong>Send questions or comments</strong> to the city&rsquo;s
+              <strong>Send questions or comments</strong>{" "}to the city&rsquo;s
               dedicated address for this project:{" "}
               <strong>datacenter@pikevilleky.gov</strong>.
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Show up prepared.</strong> The{" "}
+              <strong>Show up prepared.</strong>{" "}The{" "}
               <Link href="/questions" className="font-semibold text-amber-700 underline">
                 Questions to Ask
               </Link>{" "}
@@ -158,26 +158,26 @@ export default function StatusPage() {
           </p>
           <ul>
             <li>
-              <strong>Who can ask:</strong> any Kentucky resident. The agency
+              <strong>Who can ask:</strong>{" "}any Kentucky resident. The agency
               may ask for a signed, written application describing the records,
               but may not demand proof of residency.
               <Cite id="krs-61-872" />
             </li>
             <li>
-              <strong>How fast they must answer:</strong> within five business
+              <strong>How fast they must answer:</strong>{" "}within five business
               days, the agency must either provide the records or deny the
               request in writing — and any denial must cite the specific legal
               exemption it relies on.
               <Cite id="krs-61-880" />
             </li>
             <li>
-              <strong>If you&rsquo;re denied:</strong> you can appeal to the
+              <strong>If you&rsquo;re denied:</strong>{" "}you can appeal to the
               Kentucky Attorney General, who issues a binding decision — no
               lawyer required.
               <Cite id="krs-61-880" />
             </li>
             <li>
-              <strong>What to expect:</strong> some records are legitimately
+              <strong>What to expect:</strong>{" "}some records are legitimately
               exempt while negotiations are live (the law has exceptions, which
               the agency must name in writing). Final agreements, meeting
               minutes, and most correspondence are public. In The Dalles,

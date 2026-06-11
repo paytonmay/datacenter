@@ -68,15 +68,15 @@ export default function IdeasPage() {
             the clock, and the AI-era cooling designs produce hot water
             (roughly 50–60°C from direct-to-chip systems) — warm enough to be
             genuinely useful next door.
-            <Cite id="dck-heat-grade" /> The precedents are small,
+            <Cite id="dck-heat-grade" />{" "}The precedents are small,
             unglamorous, and real: Notre Dame&rsquo;s server racks heat South
             Bend&rsquo;s municipal greenhouse and save the city about
             $70,000 a year,
-            <Cite id="nd-greenhouse" /> a 28 kW micro data center cut an
+            <Cite id="nd-greenhouse" />{" "}a 28 kW micro data center cut an
             English town pool&rsquo;s gas bill 62%,
-            <Cite id="deep-green-pool" /> and Amazon&rsquo;s Seattle towers
+            <Cite id="deep-green-pool" />{" "}and Amazon&rsquo;s Seattle towers
             are warmed by a neighboring building&rsquo;s waste heat.
-            <Cite id="amazon-denny" /> A regional policy group, ReImagine
+            <Cite id="amazon-denny" />{" "}A regional policy group, ReImagine
             Appalachia, has argued for exactly this use on reclaimed mine
             land.
             <Cite id="reimagine-appalachia" />
@@ -85,12 +85,12 @@ export default function IdeasPage() {
             The Pikeville version writes itself. The data center would sit
             inside an industrial park the city spent a decade building, with
             other tenants and a completed Build-Ready pad next door.
-            <Cite id="oneeastky-packet" /> The city&rsquo;s own review asks
+            <Cite id="oneeastky-packet" />{" "}The city&rsquo;s own review asks
             how a data center would affect the park&rsquo;s ability to serve
             other industrial employers
-            <Cite id="pikeville-review-details" /> — heat reuse flips that
+            <Cite id="pikeville-review-details" />{" "}— heat reuse flips that
             question. Free or near-free process heat could make the
-            remaining lots <em>more</em> attractive, not less: greenhouses,
+            remaining lots <em>more</em>{" "}attractive, not less: greenhouses,
             food processing, aquaculture, or simply heating a neighboring
             tenant&rsquo;s building.
           </p>
@@ -111,21 +111,21 @@ export default function IdeasPage() {
           <p>
             The pattern everywhere resource money has appeared suddenly —
             oil, gas, and now data centers — is that places which{" "}
-            <em>invested</em> the windfall kept benefiting after the boom,
+            <em>invested</em>{" "}the windfall kept benefiting after the boom,
             and places that simply absorbed it into the budget did not. The
             precedent ladder, from biggest to closest:
           </p>
           <ul>
             <li>
-              <strong>Alaska</strong> put a share of its oil revenue into a
+              <strong>Alaska</strong>{" "}put a share of its oil revenue into a
               permanent fund starting in 1976. The fund is now roughly $85
               billion
-              <Cite id="apfc" /> and paid every eligible Alaskan a $1,000
+              <Cite id="apfc" />{" "}and paid every eligible Alaskan a $1,000
               dividend in 2025.
               <Cite id="ak-pfd-2025" />
             </li>
             <li>
-              <strong>New Mexico</strong> amended its constitution in 2022
+              <strong>New Mexico</strong>{" "}amended its constitution in 2022
               to draw an extra 1.25% a year from its oil-and-gas-fed Land
               Grant Permanent Fund — about $150 million annually, 60% of it
               for early childhood education — which is how it became the
@@ -133,21 +133,21 @@ export default function IdeasPage() {
               <Cite id="nm-landgrant" />
             </li>
             <li>
-              <strong>North Dakota</strong> created its Legacy Fund by
+              <strong>North Dakota</strong>{" "}created its Legacy Fund by
               ballot measure in 2010; defined earnings now flow to the state
               on a percent-of-value rule, including a $686.9 million
               transfer to the general fund in the 2023–25 biennium.
               <Cite id="nd-legacy" />
             </li>
             <li>
-              <strong>West Virginia — the data center version:</strong> a
+              <strong>West Virginia — the data center version:</strong>{" "}a
               2025 law routes property taxes from large data centers by
               formula: 50% to a Personal Income Tax Reduction Fund, 30% to
               the host county, 10% shared among all counties, and 5% each to
               grid and economic-development funds.
-              <Cite id="wv-hb2014" /> The host-county share exists because
+              <Cite id="wv-hb2014" />{" "}The host-county share exists because
               counties pushed back and won a bigger slice
-              <Cite id="wv-hb2014-counties" /> — and critics argue the model
+              <Cite id="wv-hb2014-counties" />{" "}— and critics argue the model
               diverts money from local schools and public safety to fund tax
               cuts, a trade-off any version of this idea has to face
               honestly.
@@ -155,7 +155,7 @@ export default function IdeasPage() {
             </li>
             <li>
               <strong>Loudoun County, Virginia — the pay-as-you-go
-              alternative:</strong> no endowment, but data center revenue
+              alternative:</strong>{" "}no endowment, but data center revenue
               (38% of its general fund, $100M+ of new revenue a year) let it
               cut the homeowner property tax rate every year for a decade,
               to the lowest in Northern Virginia.
@@ -163,25 +163,25 @@ export default function IdeasPage() {
             </li>
           </ul>
           <p>
-            <strong>Pikeville&rsquo;s actual numbers.</strong> The
+            <strong>Pikeville&rsquo;s actual numbers.</strong>{" "}The
             city&rsquo;s general fund collected about $21.4 million in
             FY2024 — $12.2 million of it from the 2% occupational license
             fee, and just $1.07 million from property taxes.
-            <Cite id="pikeville-audit-2024" /> The FY2026 budget runs about
+            <Cite id="pikeville-audit-2024" />{" "}The FY2026 budget runs about
             $28 million.
-            <Cite id="pikeville-budget-2026" /> The proposed project&rsquo;s
+            <Cite id="pikeville-budget-2026" />{" "}The proposed project&rsquo;s
             initial phase exceeds $250 million of capital investment, much
             of it computing equipment the city itself notes is &ldquo;subject
             to standard Kentucky personal property tax assessments&rdquo; —
             and the city has said it will not cut local taxes as an
             incentive.
-            <Cite id="pikeville-review-details" /> Two honest observations
+            <Cite id="pikeville-review-details" />{" "}Two honest observations
             follow. First, because the city&rsquo;s property-tax slice is
             small today, taxes alone may add hundreds of thousands — not
             tens of millions — per year at the initial 25–30 MW scale; the
             county and school district collect their own shares on top.
             Second, that is exactly why the Development Agreement matters:
-            negotiated revenue — a land <em>lease</em> rather than a sale,
+            negotiated revenue — a land <em>lease</em>{" "}rather than a sale,
             host-community payments, utility margins — can exceed what the
             tax tables produce, and those terms are set now or never.
           </p>
@@ -226,20 +226,20 @@ export default function IdeasPage() {
             unknown, returns vary, and inflation erodes fixed draws. For
             scale: the top row equals roughly a quarter of today&rsquo;s
             entire general fund,
-            <Cite id="pikeville-audit-2024" /> arriving every year whether
+            <Cite id="pikeville-audit-2024" />{" "}arriving every year whether
             or not the data center still exists.
           </p>
           <p>
-            <strong>Two design realities.</strong> First, Kentucky law
+            <strong>Two design realities.</strong>{" "}First, Kentucky law
             limits what cities may do with public funds — essentially
             government obligations, insured or collateralized deposits, and
             highly rated paper, under a written investment policy.
-            <Cite id="krs-66-480" /> An endowment that owns stocks would
+            <Cite id="krs-66-480" />{" "}An endowment that owns stocks would
             need an independent trust or foundation structure, or a change
             in state law — solvable, but it must be designed, not assumed.
             Second, the West Virginia critique applies at any scale: a
             dollar banked is a dollar not spent on today&rsquo;s needs.
-            <Cite id="wvcbp-hb2014" /> Whether to favor the next budget or
+            <Cite id="wvcbp-hb2014" />{" "}Whether to favor the next budget or
             the next generation is a values question only the community can
             answer — the precedents just prove both answers are available.
           </p>
@@ -250,15 +250,15 @@ export default function IdeasPage() {
             <Maturity level="precedented" />
           </p>
           <p>
-            The quietest lesson from other towns is that <em>how</em> the
+            The quietest lesson from other towns is that <em>how</em>{" "}the
             deal is papered matters more than its headline numbers. Three
             structures with track records:
           </p>
           <ul>
             <li>
-              <strong>Lease, don&rsquo;t sell.</strong> The city still owns
+              <strong>Lease, don&rsquo;t sell.</strong>{" "}The city still owns
               the land — the MOU transfers nothing.
-              <Cite id="pikeville-review-details" /> A long-term ground
+              <Cite id="pikeville-review-details" />{" "}A long-term ground
               lease produces recurring revenue a sale can&rsquo;t, and the
               land reverts if the project dies — no abandoned shell the city
               has to buy back.
@@ -271,12 +271,12 @@ export default function IdeasPage() {
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Milestones with consequences.</strong> Memphis got a
+              <strong>Milestones with consequences.</strong>{" "}Memphis got a
               groundbreaking ceremony for an $80M water-recycling plant —
               then the project was paused.
-              <Cite id="wreg-xai-water" /> Mesa, Arizona wrote tiered water
+              <Cite id="wreg-xai-water" />{" "}Mesa, Arizona wrote tiered water
               caps directly into its agreement.
-              <Cite id="nbc-mesa" /> Pledges need dates, measurements, and
+              <Cite id="nbc-mesa" />{" "}Pledges need dates, measurements, and
               defined consequences, including for the jobs numbers — which
               the city says it intends to make enforceable rather than
               aspirational.
@@ -290,10 +290,10 @@ export default function IdeasPage() {
             Every scenario on this page depends on terms that do not exist
             yet. The MOU commits the city to nothing but a period of
             exclusive negotiation, and the developer has no signed end user.
-            <Cite id="pikeville-review-details" /> The numbers above are
+            <Cite id="pikeville-review-details" />{" "}The numbers above are
             arithmetic on cited inputs, not forecasts. What the precedents
             establish is narrower but useful: communities that decided what
-            they wanted <em>before</em> signing got it written in; the ones
+            they wanted <em>before</em>{" "}signing got it written in; the ones
             that decided afterward mostly didn&rsquo;t.
           </p>
         </Callout>

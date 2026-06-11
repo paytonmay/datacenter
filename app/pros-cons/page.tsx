@@ -69,7 +69,7 @@ export default function ProsConsPage() {
                 Building a data center employs a lot of people — a large Meta
                 project in Texas reported 4,000+ construction workers at peak,
                 with 300+ permanent jobs.
-                <Cite id="meta-elpaso" /> And where data centers are taxed,
+                <Cite id="meta-elpaso" />{" "}And where data centers are taxed,
                 the revenue is real: they fund nearly $900 million a year of
                 one Virginia county&rsquo;s budget.
                 <Cite id="loudoun-revenue" />
@@ -81,12 +81,12 @@ export default function ProsConsPage() {
                 and research finds most lasting jobs land in energy, not at
                 the servers.
                 <Cite id="brookings-employment" />
-                <Cite id="latitude-jobs" /> Eastern Kentucky has seen this
+                <Cite id="latitude-jobs" />{" "}Eastern Kentucky has seen this
                 before: Pike County&rsquo;s own crypto facility promised 5–10
                 jobs,
-                <Cite id="blockware-jobs" /> and some Kentucky crypto promises
+                <Cite id="blockware-jobs" />{" "}and some Kentucky crypto promises
                 were never fulfilled at all.
-                <Cite id="kentuckynewera-crypto" /> State tax incentives also
+                <Cite id="kentuckynewera-crypto" />{" "}State tax incentives also
                 shrink what local government collects.
                 <Cite id="stites-hb775" />
               </p>
@@ -107,11 +107,11 @@ export default function ProsConsPage() {
                 Kentucky Power has lost so many customers that fixed costs
                 are spread over fewer and fewer bills — that&rsquo;s part of
                 why rates here climbed.
-                <Cite id="icn-death-spiral" /> A big, steady industrial
+                <Cite id="icn-death-spiral" />{" "}A big, steady industrial
                 customer pushes the other way; the utility calls large loads
                 &ldquo;the best vehicle for eventually balancing or lowering
                 electric rates.&rdquo;
-                <Cite id="hazard-herald-pipeline" /> New Kentucky tariff
+                <Cite id="hazard-herald-pipeline" />{" "}New Kentucky tariff
                 rules require very large customers to pay for at least 80% of
                 what they sign up for, for 15 years, even if they leave.
                 <Cite id="lge-ku-ehlf" />
@@ -121,10 +121,10 @@ export default function ProsConsPage() {
               <p>
                 Where data centers clustered, wholesale electricity prices
                 rose as much as 267% in five years,
-                <Cite id="bloomberg-nodes" /> and data center demand drove
+                <Cite id="bloomberg-nodes" />{" "}and data center demand drove
                 about 40% — $6.5 billion — of the latest capacity auction
                 cost in the nation&rsquo;s largest grid region.
-                <Cite id="monitoring-analytics-pjm" /> A majority of
+                <Cite id="monitoring-analytics-pjm" />{" "}A majority of
                 Americans now blame data centers for rising bills.
                 <Cite id="heatmap-bills-blame" />
               </p>
@@ -144,9 +144,9 @@ export default function ProsConsPage() {
                 Modern sealed-loop cooling is filled once and recirculated —
                 Microsoft&rsquo;s newest design uses roughly office-park
                 amounts of water,
-                <Cite id="microsoft-zero-water" /> and its Wisconsin campus
+                <Cite id="microsoft-zero-water" />{" "}and its Wisconsin campus
                 actually draws less than some ordinary industrial customers.
-                <Cite id="wpr-mount-pleasant" /> Pikeville&rsquo;s city
+                <Cite id="wpr-mount-pleasant" />{" "}Pikeville&rsquo;s city
                 utility says its system can comfortably meet the usage the
                 developer has described.
                 <Cite id="pikeville-review-details" />
@@ -156,12 +156,12 @@ export default function ProsConsPage() {
               <p>
                 Old-style evaporative cooling at this scale can drink half a
                 million gallons a day,
-                <Cite id="uptime-water" /> and what it sends back can carry
+                <Cite id="uptime-water" />{" "}and what it sends back can carry
                 concentrated minerals and treatment chemicals.
-                <Cite id="clee-berkeley-water" /> In The Dalles, Oregon,
+                <Cite id="clee-berkeley-water" />{" "}In The Dalles, Oregon,
                 residents learned data centers used 29% of the city&rsquo;s
                 water only after a year-long public-records fight.
-                <Cite id="register-dalles" /> The cooling design here
+                <Cite id="register-dalles" />{" "}The cooling design here
                 isn&rsquo;t committed in writing yet.
               </p>
             }
@@ -176,10 +176,10 @@ export default function ProsConsPage() {
                 Noise is an engineering problem with known fixes: Amazon
                 retrofitted a Virginia data center after complaints and the
                 noise dropped,
-                <Cite id="pwt-amazon-retrofit" /> and cities like Chandler,
+                <Cite id="pwt-amazon-retrofit" />{" "}and cities like Chandler,
                 Arizona wrote enforceable decibel limits into law before
                 approval.
-                <Cite id="chandler-ordinance" /> Distance and design decide
+                <Cite id="chandler-ordinance" />{" "}Distance and design decide
                 the outcome.
               </p>
             }
@@ -187,12 +187,12 @@ export default function ProsConsPage() {
               <p>
                 Where it went wrong, it went badly wrong: 24/7 fan hum led
                 Granbury, Texas residents to sue,
-                <Cite id="earthjustice-granbury" /> with documented health
+                <Cite id="earthjustice-granbury" />{" "}with documented health
                 complaints,
-                <Cite id="time-granbury" /> and in Wolfe County, Kentucky a
+                <Cite id="time-granbury" />{" "}and in Wolfe County, Kentucky a
                 crypto mine&rsquo;s promised sound wall became &ldquo;sound
                 blankets.&rdquo;
-                <Cite id="lex18-wolfe" /> Constant low hum, not loudness, is
+                <Cite id="lex18-wolfe" />{" "}Constant low hum, not loudness, is
                 what wears people down.
               </p>
             }
@@ -212,9 +212,9 @@ export default function ProsConsPage() {
                 Air testing around one of the country&rsquo;s most
                 controversial data centers (Memphis) found no dangerous
                 levels,
-                <Cite id="memphis-air-tests" /> a satellite analysis found
+                <Cite id="memphis-air-tests" />{" "}a satellite analysis found
                 minimal change after it opened,
-                <Cite id="conversation-memphis-satellite" /> and decades of
+                <Cite id="conversation-memphis-satellite" />{" "}and decades of
                 research find no established health effects from power-line
                 electromagnetic fields at everyday levels.
                 <Cite id="who-emf" />
@@ -225,9 +225,9 @@ export default function ProsConsPage() {
                 Backup diesel generators emit exhaust classified as
                 carcinogenic to humans — the question is how many hours they
                 run,
-                <Cite id="iarc-diesel" /> and Memphis is the cautionary tale
+                <Cite id="iarc-diesel" />{" "}and Memphis is the cautionary tale
                 of unpermitted turbines running for months.
-                <Cite id="selc-xai" /> Chronic environmental noise is itself
+                <Cite id="selc-xai" />{" "}Chronic environmental noise is itself
                 a documented health stressor.
                 <Cite id="eea-noise-deaths" />
               </p>
@@ -244,9 +244,9 @@ export default function ProsConsPage() {
                 fixes: Microsoft paid the entire $31 million for the water
                 treatment plant its discharge made necessary in Quincy,
                 Washington,
-                <Cite id="epa-quincy-reuse" /> and Google funded $28.5
+                <Cite id="epa-quincy-reuse" />{" "}and Google funded $28.5
                 million of water infrastructure in The Dalles.
-                <Cite id="opb-dalles-deal" /> Homes near Northern Virginia
+                <Cite id="opb-dalles-deal" />{" "}Homes near Northern Virginia
                 data centers even sold for more, not less.
                 <Cite id="gmu-property" />
               </p>
@@ -257,9 +257,9 @@ export default function ProsConsPage() {
                 secrecy. NDAs and undisclosed details have fueled enough
                 backlash that at least 16 projects worth ~$64 billion have
                 been blocked or delayed by local opposition,
-                <Cite id="datacenterwatch" /> and several Kentucky
+                <Cite id="datacenterwatch" />{" "}and several Kentucky
                 communities are pausing data centers until rules are written.
-                <Cite id="ky-lantern-pause" /> Nationally, opinion has turned
+                <Cite id="ky-lantern-pause" />{" "}Nationally, opinion has turned
                 sharply negative on environmental impact.
                 <Cite id="pew-2026" />
               </p>

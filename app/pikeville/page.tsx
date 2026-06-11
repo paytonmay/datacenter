@@ -39,7 +39,7 @@ export default function PikevillePage() {
             </li>
             <li>
               The MOU starts a <strong>120-day exclusive negotiation
-              window</strong> — the city and developer talk only to each other
+              window</strong>{" "}— the city and developer talk only to each other
               while deciding whether a final Development Agreement makes
               sense. Either side can walk away at the end with no penalty, and
               the window can be extended by mutual agreement.
@@ -47,18 +47,18 @@ export default function PikevillePage() {
             </li>
             <li>
               <strong>No land has been transferred. No terms have been agreed
-              to.</strong> The city states it has signed no non-disclosure
+              to.</strong>{" "}The city states it has signed no non-disclosure
               agreement and was not asked to.
               <Cite id="pikeville-press-release" />
             </li>
             <li>
               The proposed site is the city-owned{" "}
-              <strong>Kentucky Enterprise Industrial Park</strong> — a
+              <strong>Kentucky Enterprise Industrial Park</strong>{" "}— a
               190-acre park developed over more than a decade with city
               investment plus state and federal grants, currently home to
               Appalachian Tank and Wrightway Concrete, with a state-certified
               Build-Ready site completed in 2024.
-              <Cite id="pikeville-press-release" /> (See{" "}
+              <Cite id="pikeville-press-release" />{" "}(See{" "}
               <a href="/map">the map page</a> for where the park sits and how
               far the nearest homes are.)
             </li>
@@ -69,7 +69,7 @@ export default function PikevillePage() {
           <StatGrid>
             <Stat value="25–30 MW" label="Initial computing capacity">
               With developer interest in growing to 75–100 MW{" "}
-              <em>if</em> additional power capacity becomes available.
+              <em>if</em>{" "}additional power capacity becomes available.
               <Cite id="pikeville-review-details" />
             </Stat>
             <Stat value="$250M+" label="Projected initial investment">
@@ -104,7 +104,7 @@ export default function PikevillePage() {
             the quality of the industrial park&rsquo;s infrastructure, the
             state-certified Build-Ready site with its completed building pad,
             and — critically — <strong>existing power capacity within the
-            park</strong> that could serve the initial phase{" "}
+            park</strong>{" "}that could serve the initial phase{" "}
             <em>without building new transmission lines</em>. That means the
             project could reach operation faster here than at sites needing
             new transmission.
@@ -115,8 +115,8 @@ export default function PikevillePage() {
             its power capacity were built with public money over more than a
             decade, and level, buildable land is genuinely scarce in Eastern
             Kentucky. The city frames the open question the same way many
-            residents do — is <em>this</em> use of those assets, on{" "}
-            <em>what</em> terms, the right decision?
+            residents do — is <em>this</em>{" "}use of those assets, on{" "}
+            <em>what</em>{" "}terms, the right decision?
             <Cite id="pikeville-review-details" />
           </p>
         </Section>
@@ -124,7 +124,7 @@ export default function PikevillePage() {
         <Section title="What the city says it is examining">
           <ul>
             <li>
-              <strong>Land use:</strong> whether a data center is the right
+              <strong>Land use:</strong>{" "}whether a data center is the right
               use for the park, how it would affect the park&rsquo;s ability
               to serve other industrial employers, and what realistic
               alternatives exist — evaluated by independent advisors, not the
@@ -132,14 +132,14 @@ export default function PikevillePage() {
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Economics:</strong> an independent economic analysis of
+              <strong>Economics:</strong>{" "}an independent economic analysis of
               whether the developer&rsquo;s job and investment projections
               match what comparable projects have actually delivered
               elsewhere.
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Electric rates:</strong> Kentucky Power&rsquo;s rates
+              <strong>Electric rates:</strong>{" "}Kentucky Power&rsquo;s rates
               are set by the Kentucky Public Service Commission — the city
               can&rsquo;t override that — but the city says it is examining
               what a Development Agreement can do to ensure the cost of
@@ -149,7 +149,7 @@ export default function PikevillePage() {
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Water:</strong> the city operates its own municipal
+              <strong>Water:</strong>{" "}the city operates its own municipal
               water system, drawing from the Levisa Fork of the Big Sandy
               River, and says its approved withdrawal permit capacity is well
               above the project&rsquo;s described needs. It is having the
@@ -159,7 +159,7 @@ export default function PikevillePage() {
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Noise and air quality:</strong> the city is examining
+              <strong>Noise and air quality:</strong>{" "}the city is examining
               the noise and air-quality implications of backup power systems,
               which are tested on a regular schedule. (See our{" "}
               <a href="/noise">Noise</a> and <a href="/health">Health</a>{" "}
@@ -167,7 +167,7 @@ export default function PikevillePage() {
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Taxes:</strong> the city says it will not reduce or
+              <strong>Taxes:</strong>{" "}the city says it will not reduce or
               eliminate local tax revenues as an incentive. Kentucky&rsquo;s
               state-level data center incentive operates through state sales
               tax treatment and doesn&rsquo;t affect local government
@@ -175,7 +175,7 @@ export default function PikevillePage() {
               <Cite id="pikeville-review-details" />
             </li>
             <li>
-              <strong>Future ownership:</strong> ensuring commitments are
+              <strong>Future ownership:</strong>{" "}ensuring commitments are
               tied to the land and the use — so they can&rsquo;t be erased if
               the property is sold or the developer restructures.
               <Cite id="pikeville-review-details" />
@@ -191,7 +191,7 @@ export default function PikevillePage() {
             identify sites, develop infrastructure, and bring in an end user
             (the company that would actually operate computing inside the
             facility). As of the June 2026 announcement,{" "}
-            <strong>no end user had been finalized</strong> — that negotiation
+            <strong>no end user had been finalized</strong>{" "}— that negotiation
             was ongoing.
             <Cite id="pikeville-review-details" />
           </p>
@@ -201,7 +201,7 @@ export default function PikevillePage() {
             &ldquo;MD Squared Power&rdquo; name in February 2026; its
             managing member, Ben DeVary of Lexington, signed the MOU.
             <Cite id="mountain-top-pikeville" />
-            <Cite id="pikeville-mou" /> That isn&rsquo;t unusual for a
+            <Cite id="pikeville-mou" />{" "}That isn&rsquo;t unusual for a
             project-specific development entity, but it is part of why the
             city&rsquo;s independent review of the developer&rsquo;s capacity
             to deliver — and protections that survive any future sale —

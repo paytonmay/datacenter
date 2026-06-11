@@ -44,12 +44,12 @@ export default function MapPage() {
               The likely building site is the state-certified Build-Ready pad
               (Lot A-3): a 100,000 sq ft graded pad on 9.32 buildable acres,
               completed with $4 million in city and state funding.
-              <Cite id="newsexpress-buildready" /> The MOU identifies tracts
+              <Cite id="newsexpress-buildready" />{" "}The MOU identifies tracts
               A-3, A-4, A-5, A-6, and C-1 — all on the same bench.
               <Cite id="pikeville-mou" />
             </li>
             <li>
-              <strong>The nearest homes are not on the plateau.</strong> The
+              <strong>The nearest homes are not on the plateau.</strong>{" "}The
               closest residential area — the Island Creek valley subdivision
               northwest of the park — sits in the valley roughly 1,000–2,500
               feet from the park boundary, and about a mile from the pad
@@ -59,7 +59,7 @@ export default function MapPage() {
               <Cite id="oneeastky-packet" />
             </li>
             <li>
-              <strong>No schools or hospitals are within a mile</strong> of
+              <strong>No schools or hospitals are within a mile</strong>{" "}of
               the park; Pikeville Medical Center and the city schools are 3+
               miles away.
               <Cite id="oneeastky-packet" />
@@ -72,26 +72,26 @@ export default function MapPage() {
             The park&rsquo;s elevation is its most unusual feature: the bench
             sits at roughly 1,250–1,325 feet, while the surrounding valley
             floors — where the homes are — sit 450–620 feet{" "}
-            <em>below</em> it.
-            <Cite id="oneeastky-packet" /> That cuts both ways:
+            <em>below</em>{" "}it.
+            <Cite id="oneeastky-packet" />{" "}That cuts both ways:
           </p>
           <ul>
             <li>
-              <strong>In the site&rsquo;s favor:</strong> homes are below the
+              <strong>In the site&rsquo;s favor:</strong>{" "}homes are below the
               plateau rim rather than line-of-sight with equipment, and the
               rim itself can act as a sound barrier — the geometry that
               setback-and-barrier mitigation tries to create artificially.
-              <Cite id="lsars-noise" /> Compare that with the worst documented
+              <Cite id="lsars-noise" />{" "}Compare that with the worst documented
               cases, where equipment sat at the same grade as homes 100 yards
               away.
               <Cite id="texas-tribune-granbury" />
             </li>
             <li>
-              <strong>Worth watching:</strong> nighttime temperature
+              <strong>Worth watching:</strong>{" "}nighttime temperature
               inversions — common in mountain valleys — can carry
               low-frequency sound farther than flat-ground math predicts, and
               sound that clears a rim can travel down a hollow.
-              <Cite id="lsars-noise" /> The rings on this map assume flat,
+              <Cite id="lsars-noise" />{" "}The rings on this map assume flat,
               open ground; real propagation here will differ in both
               directions.
             </li>
@@ -102,7 +102,7 @@ export default function MapPage() {
             noise limit applies — those determine what anyone actually hears,
             and they belong in a pre-approval sound study and the Development
             Agreement. Virginia&rsquo;s state auditors recommend exactly
-            that: require sound modeling <em>before</em> approval, not
+            that: require sound modeling <em>before</em>{" "}approval, not
             complaints after.
             <Cite id="jlarc-2024" />
           </Callout>
@@ -117,7 +117,7 @@ export default function MapPage() {
             feet.
             <Cite id="pikeville-mou" />
             <Cite id="kyced-listing" />
-            <Cite id="oneeastky-packet" /> No surveyed coordinate for the
+            <Cite id="oneeastky-packet" />{" "}No surveyed coordinate for the
             building pad itself has been published, so treat all distances as
             approximate (±500 ft). Residential locations come from
             OpenStreetMap place data and the aerial imagery in the
