@@ -26,7 +26,7 @@ export const updates: UpdateEntry[] = [
     date: "2026-06-11",
     title: "Ideas page: how the city could leverage the deal",
     details:
-      "Three precedent-grounded ideas — waste-heat reuse for park neighbors, a permanent investment fund (Alaska, New Mexico, North Dakota, and West Virginia's data-center-specific model) with scenarios computed against Pikeville's audited budget, and deal structures that survive ownership changes. 11 new verified sources.",
+      "Three precedent-grounded ideas: waste-heat reuse for park neighbors, a permanent investment fund (Alaska, New Mexico, North Dakota, and West Virginia's data-center-specific model) with scenarios computed against Pikeville's audited budget, and deal structures that survive ownership changes. 11 new verified sources.",
     pages: [{ href: "/ideas", label: "Ideas" }],
   },
   {

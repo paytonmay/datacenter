@@ -41,19 +41,19 @@ export function Footer() {
           centers, created for the Pikeville, Kentucky community as it
           evaluates a proposed data center development. It is not affiliated
           with the City of Pikeville, MD Squared Power LLC, Kentucky Power, or
-          any advocacy group. Every factual claim links to a numbered source —
+          any advocacy group. Every factual claim links to a numbered source;
           see the <Link href="/sources" className="font-semibold text-amber-700 underline">Sources page</Link>.
         </p>
         <p className="mt-3 max-w-2xl">
-          Spotted an error or an outdated figure? Corrections are welcome —
+          Spotted an error or an outdated figure? Corrections are welcome;
           this site aims to be accurate above all.
         </p>
         <p className="mt-4 text-xs text-slate-400">
-          Content last verified {SITE_LAST_VERIFIED} — see{" "}
+          Content last verified {SITE_LAST_VERIFIED}; see{" "}
           <Link href="/updates" className="underline hover:text-slate-600">
             what&rsquo;s changed
           </Link>
-          . The situation (and the research) keeps evolving — always check
+          . The situation (and the research) keeps evolving. Always check
           primary sources for the latest.
         </p>
       </div>

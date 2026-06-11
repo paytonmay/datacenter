@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default:
-      "Data Centers, Explained — a factual guide for Pikeville & Eastern Kentucky",
-    template: "%s — Data Centers, Explained",
+      "Data Centers, Explained: a factual guide for Pikeville & Eastern Kentucky",
+    template: "%s | Data Centers, Explained",
   },
   description: SITE_DESCRIPTION,
   keywords: [

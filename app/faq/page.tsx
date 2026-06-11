@@ -7,7 +7,7 @@ import { Container, NextPage, PageHeader } from "@/components/ui";
 export const metadata: Metadata = {
   title: "FAQ: Direct Answers to Common Questions",
   description:
-    "Plain answers to the questions Pikeville residents actually ask about the proposed data center: bills, noise, water, health, jobs, and how to have a say — each linked to the full evidence.",
+    "Plain answers to the questions Pikeville residents actually ask about the proposed data center: bills, noise, water, health, jobs, and how to have a say, each linked to the full evidence.",
   alternates: { canonical: "/faq" },
 };
 
@@ -157,7 +157,7 @@ export default function FAQPage() {
         <FAQ q="Has anything been decided yet?">
           <p>
             No. The MOU signed April 20, 2026 commits both sides only to 120
-            days of exclusive negotiation — no land transferred, no terms
+            days of exclusive negotiation: no land transferred, no terms
             agreed, and either side can walk away. The city has promised the
             complete agreement will be published for public review before any
             vote.
@@ -169,7 +169,7 @@ export default function FAQPage() {
 
         <FAQ q="Will my electric bill go up?">
           <p>
-            It depends on contract and tariff terms — not on whether the data
+            It depends on contract and tariff terms, not on whether the data
             center exists. Near big clusters, wholesale prices rose as much as
             267%,
             <Cite id="bloomberg-nodes" />{" "}but Kentucky&rsquo;s new large-load
@@ -189,7 +189,7 @@ export default function FAQPage() {
             It depends on cooling design, distance, and whether numeric noise
             limits get written into the agreement. The bad cases elsewhere
             (Granbury, Texas; Chandler, Arizona) were continuous cooling-fan
-            hum — and the documented fixes were engineering retrofits and
+            hum, and the documented fixes were engineering retrofits and
             enforceable decibel limits at the property line.
             <Cite id="time-granbury" />
             <Cite id="chandler-ordinance" />{" "}The proposed site sits inside an
@@ -201,14 +201,14 @@ export default function FAQPage() {
 
         <FAQ q="How much water would it use?">
           <p>
-            The cooling design decides — by a factor of about fifty. Open
+            The cooling design decides, by a factor of about fifty. Open
             evaporative cooling at this scale could draw hundreds of thousands
             of gallons a day; sealed-loop designs use about as much as an
             office park.
             <Cite id="uptime-water" />
             <Cite id="microsoft-zero-water" />{" "}The city says its system can
             comfortably meet the described usage and is independently
-            verifying the projections — but the design isn&rsquo;t committed
+            verifying the projections, but the design isn&rsquo;t committed
             in writing yet.
             <Cite id="pikeville-review-details" />
           </p>
@@ -221,9 +221,9 @@ export default function FAQPage() {
             center harming community health; air testing around the most
             controversial U.S. facility found no dangerous levels.
             <Cite id="memphis-air-tests" />{" "}The evidence-based watch items are
-            diesel exhaust from backup generators — a known carcinogen, so
+            diesel exhaust from backup generators (a known carcinogen, so
             permitted runtime hours matter
-            <Cite id="iarc-diesel" />{" "}— and chronic noise, which is itself a
+            <Cite id="iarc-diesel" />){" "}and chronic noise, which is itself a
             documented health stressor.
             <Cite id="eea-noise-deaths" />
           </p>
@@ -234,7 +234,7 @@ export default function FAQPage() {
           <p>
             The developer projects 190+ construction jobs and 40 permanent
             positions at the initial phase, at wages described as well above
-            the Pike County median — and the city itself says projections are
+            the Pike County median, and the city itself says projections are
             not enforceable obligations and will need real enforcement
             mechanisms in any agreement.
             <Cite id="pikeville-review-details" />{" "}Research elsewhere finds
@@ -247,10 +247,10 @@ export default function FAQPage() {
 
         <FAQ q="What does the city get out of it financially?">
           <p>
-            Potentially: property taxes — including Kentucky personal property
+            Potentially: property taxes (including Kentucky personal property
             tax on the computing equipment, which the city says it will not
             waive
-            <Cite id="pikeville-review-details" />{" "}— plus occupational taxes,
+            <Cite id="pikeville-review-details" />),{" "}plus occupational taxes,
             utility revenue, and whatever lease or host payments get
             negotiated. For scale: the city&rsquo;s entire general fund
             collected about $21.4 million in FY2024.
@@ -261,7 +261,7 @@ export default function FAQPage() {
 
         <FAQ q="Who decides whether this happens?">
           <p>
-            The Pikeville City Commission — after the promised public review
+            The Pikeville City Commission, after the promised public review
             of complete terms. The Commission typically meets the second and
             fourth Monday of each month, open to the public,
             <Cite id="pikeville-commission" />{" "}and the city accepts comments
@@ -273,7 +273,7 @@ export default function FAQPage() {
 
         <FAQ q="How can I verify any of this myself?">
           <p>
-            Every claim on this site carries a numbered citation — and beyond
+            Every claim on this site carries a numbered citation. And beyond
             that, Kentucky&rsquo;s Open Records Act gives any Kentucky
             resident the right to inspect public records. Agencies must
             respond within five business days, must cite a specific exemption

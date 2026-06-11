@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "The Pikeville Proposal",
   description:
-    "What the proposed data center at the Kentucky Enterprise Industrial Park actually is, according to the City of Pikeville's own published documents — and what hasn't been decided yet.",
+    "What the proposed data center at the Kentucky Enterprise Industrial Park actually is, according to the City of Pikeville's own published documents, and what hasn't been decided yet.",
   alternates: { canonical: "/pikeville" },
 };
 
@@ -23,7 +23,7 @@ export default function PikevillePage() {
       <PageHeader
         kicker="What's actually on the table"
         title="The Pikeville proposal, straight from the documents"
-        lede="Everything on this page comes from the City of Pikeville's own published documents — the June 5, 2026 press release, the city's review summary, and the executed Memorandum of Understanding. No spin in either direction: here's what has been agreed to, what hasn't, and what happens next."
+        lede="Everything on this page comes from the City of Pikeville's own published documents: the June 5, 2026 press release, the city's review summary, and the executed Memorandum of Understanding. No spin in either direction: here's what has been agreed to, what hasn't, and what happens next."
       />
       <Container>
         <Section title="The short version">
@@ -39,7 +39,7 @@ export default function PikevillePage() {
             </li>
             <li>
               The MOU starts a <strong>120-day exclusive negotiation
-              window</strong>{" "}— the city and developer talk only to each other
+              window</strong>: the city and developer talk only to each other
               while deciding whether a final Development Agreement makes
               sense. Either side can walk away at the end with no penalty, and
               the window can be extended by mutual agreement.
@@ -53,7 +53,7 @@ export default function PikevillePage() {
             </li>
             <li>
               The proposed site is the city-owned{" "}
-              <strong>Kentucky Enterprise Industrial Park</strong>{" "}— a
+              <strong>Kentucky Enterprise Industrial Park</strong>, a
               190-acre park developed over more than a decade with city
               investment plus state and federal grants, currently home to
               Appalachian Tank and Wrightway Concrete, with a state-certified
@@ -78,7 +78,7 @@ export default function PikevillePage() {
               <Cite id="pikeville-review-details" />
             </Stat>
             <Stat value="190+" label="Projected construction jobs">
-              During the build phase — a developer projection, not yet a
+              During the build phase, a developer projection, not yet a
               commitment.
               <Cite id="pikeville-press-release" />
             </Stat>
@@ -103,7 +103,7 @@ export default function PikevillePage() {
             According to the city, the developer was drawn by three things:
             the quality of the industrial park&rsquo;s infrastructure, the
             state-certified Build-Ready site with its completed building pad,
-            and — critically — <strong>existing power capacity within the
+            and, critically, <strong>existing power capacity within the
             park</strong>{" "}that could serve the initial phase{" "}
             <em>without building new transmission lines</em>. That means the
             project could reach operation faster here than at sites needing
@@ -115,7 +115,7 @@ export default function PikevillePage() {
             its power capacity were built with public money over more than a
             decade, and level, buildable land is genuinely scarce in Eastern
             Kentucky. The city frames the open question the same way many
-            residents do — is <em>this</em>{" "}use of those assets, on{" "}
+            residents do: is <em>this</em>{" "}use of those assets, on{" "}
             <em>what</em>{" "}terms, the right decision?
             <Cite id="pikeville-review-details" />
           </p>
@@ -127,7 +127,7 @@ export default function PikevillePage() {
               <strong>Land use:</strong>{" "}whether a data center is the right
               use for the park, how it would affect the park&rsquo;s ability
               to serve other industrial employers, and what realistic
-              alternatives exist — evaluated by independent advisors, not the
+              alternatives exist, evaluated by independent advisors, not the
               developer&rsquo;s own assessment.
               <Cite id="pikeville-review-details" />
             </li>
@@ -140,8 +140,8 @@ export default function PikevillePage() {
             </li>
             <li>
               <strong>Electric rates:</strong>{" "}Kentucky Power&rsquo;s rates
-              are set by the Kentucky Public Service Commission — the city
-              can&rsquo;t override that — but the city says it is examining
+              are set by the Kentucky Public Service Commission (the city
+              can&rsquo;t override that), but the city says it is examining
               what a Development Agreement can do to ensure the cost of
               serving the facility doesn&rsquo;t fall on existing residential
               and commercial customers. (Our <a href="/power">Power &amp;
@@ -176,7 +176,7 @@ export default function PikevillePage() {
             </li>
             <li>
               <strong>Future ownership:</strong>{" "}ensuring commitments are
-              tied to the land and the use — so they can&rsquo;t be erased if
+              tied to the land and the use, so they can&rsquo;t be erased if
               the property is sold or the developer restructures.
               <Cite id="pikeville-review-details" />
             </li>
@@ -191,12 +191,12 @@ export default function PikevillePage() {
             identify sites, develop infrastructure, and bring in an end user
             (the company that would actually operate computing inside the
             facility). As of the June 2026 announcement,{" "}
-            <strong>no end user had been finalized</strong>{" "}— that negotiation
+            <strong>no end user had been finalized</strong>; that negotiation
             was ongoing.
             <Cite id="pikeville-review-details" />
           </p>
           <p>
-            For the record: local reporting notes the LLC is young — Kentucky
+            For the record: local reporting notes the LLC is young: Kentucky
             business filings show it was organized in 2024 and took the
             &ldquo;MD Squared Power&rdquo; name in February 2026; its
             managing member, Ben DeVary of Lexington, signed the MOU.
@@ -204,7 +204,7 @@ export default function PikevillePage() {
             <Cite id="pikeville-mou" />{" "}That isn&rsquo;t unusual for a
             project-specific development entity, but it is part of why the
             city&rsquo;s independent review of the developer&rsquo;s capacity
-            to deliver — and protections that survive any future sale —
+            to deliver, and protections that survive any future sale,
             matter.
             <Cite id="pikeville-review-details" />
           </p>

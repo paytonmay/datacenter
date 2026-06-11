@@ -11,23 +11,23 @@ June 2026.
 
 ## Pages
 
-- `/` — Home and how the site handles facts
-- `/pros-cons` — The quick version: the case for and the concerns, topic by topic
-- `/ideas` — How the city could leverage the deal: heat reuse, a permanent fund, deal structure
-- `/status` — Process timeline, how to participate, Kentucky Open Records how-to
-- `/questions` — Printable checklist of questions to ask before signing (+ document shelf)
-- `/faq` — Direct answers with FAQPage structured data
-- `/glossary` — Plain-language definitions of the jargon
-- `/updates` — Public changelog; "last verified" stamp lives in lib/updates.ts
-- `/basics` — Data center types and sizes; where 25–30 MW fits
-- `/map` — The site with distance rings to the nearest homes
-- `/noise` — Measured decibel levels, case studies, standards, mitigation
-- `/water` — Cooling system types, real water numbers, and what's in the discharge
-- `/power` — Power usage and the electric-rate question (incl. Kentucky Power / Eastern KY context)
-- `/health` — Health concerns labeled by evidence strength
-- `/communities` — Public opinion and outcomes in other towns
-- `/pikeville` — The local proposal, from the city's own documents
-- `/sources` — The full numbered source list
+- `/`: Home and how the site handles facts
+- `/pros-cons`: The quick version: the case for and the concerns, topic by topic
+- `/ideas`: How the city could leverage the deal: heat reuse, a permanent fund, deal structure
+- `/status`: Process timeline, how to participate, Kentucky Open Records how-to
+- `/questions`: Printable checklist of questions to ask before signing (+ document shelf)
+- `/faq`: Direct answers with FAQPage structured data
+- `/glossary`: Plain-language definitions of the jargon
+- `/updates`: Public changelog; "last verified" stamp lives in lib/updates.ts
+- `/basics`: Data center types and sizes; where 25–30 MW fits
+- `/map`: The site with distance rings to the nearest homes
+- `/noise`: Measured decibel levels, case studies, standards, mitigation
+- `/water`: Cooling system types, real water numbers, and what's in the discharge
+- `/power`: Power usage and the electric-rate question (incl. Kentucky Power / Eastern KY context)
+- `/health`: Health concerns labeled by evidence strength
+- `/communities`: Public opinion and outcomes in other towns
+- `/pikeville`: The local proposal, from the city's own documents
+- `/sources`: The full numbered source list
 
 ## SEO & AI discoverability
 
@@ -46,7 +46,7 @@ npm run dev    # http://localhost:3000
 npm run build  # static production build
 ```
 
-Built with Next.js (App Router) + Tailwind CSS. Fully static — no database.
+Built with Next.js (App Router) + Tailwind CSS. Fully static: no database.
 
 ## Corrections
 

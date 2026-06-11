@@ -8,7 +8,7 @@ import { SITE_LAST_VERIFIED } from "@/lib/updates";
 export const metadata: Metadata = {
   title: "What's Next: Where Things Stand & How to Participate",
   description:
-    "A timeline of the Pikeville data center process — what's done, what's in progress, what the city has promised — plus how to attend meetings, submit comments, and request public records under Kentucky law.",
+    "A timeline of the Pikeville data center process (what's done, what's in progress, what the city has promised), plus how to attend meetings, submit comments, and request public records under Kentucky law.",
   alternates: { canonical: "/status" },
 };
 
@@ -64,7 +64,7 @@ export default function StatusPage() {
     <>
       <PageHeader
         kicker="The process"
-        title="Where things stand — and how to have a say."
+        title="Where things stand, and how to have a say."
         lede={`Nothing has been decided. The city and the developer are inside a negotiation window, the city has promised public review of any final agreement before a vote, and the public-input channels are open right now. Status as of ${SITE_LAST_VERIFIED}.`}
       />
       <Container>
@@ -73,7 +73,7 @@ export default function StatusPage() {
             <Step state="done" date="April 20, 2026" title="MOU signed">
               The City and MD Squared Power LLC signed a Memorandum of
               Understanding: 120 days of exclusive negotiation. It transfers no
-              land and agrees to no terms — either side can walk away with no
+              land and agrees to no terms; either side can walk away with no
               penalty.
               <Cite id="pikeville-mou" />
               <Cite id="pikeville-review-details" />
@@ -105,7 +105,7 @@ export default function StatusPage() {
             </Step>
             <Step state="promised" date="After public review" title="City Commission votes">
               A Development Agreement only exists if the Commission approves
-              it — after the published-terms review period.
+              it, after the published-terms review period.
               <Cite id="pikeville-review-details" />
             </Step>
           </ul>
@@ -115,7 +115,7 @@ export default function StatusPage() {
           <p>
             The end user (the company that would actually operate the data
             center), the cooling design, the financial terms, whether the land
-            would be leased or sold, and every enforceable commitment — all of
+            would be leased or sold, and every enforceable commitment: all of
             it remains to be negotiated and published. That&rsquo;s not a
             criticism; it&rsquo;s the stage the process is in. It&rsquo;s also
             why questions asked <em>now</em>{" "}carry the most weight.
@@ -151,8 +151,8 @@ export default function StatusPage() {
 
         <Section title="How to see the records yourself: Kentucky's Open Records Act">
           <p>
-            You don&rsquo;t have to take anyone&rsquo;s word — including this
-            site&rsquo;s — for what&rsquo;s in a public document. Kentucky law
+            You don&rsquo;t have to take anyone&rsquo;s word, including this
+            site&rsquo;s, for what&rsquo;s in a public document. Kentucky law
             gives every resident of the Commonwealth the right to inspect
             public records:
           </p>
@@ -166,13 +166,13 @@ export default function StatusPage() {
             <li>
               <strong>How fast they must answer:</strong>{" "}within five business
               days, the agency must either provide the records or deny the
-              request in writing — and any denial must cite the specific legal
+              request in writing, and any denial must cite the specific legal
               exemption it relies on.
               <Cite id="krs-61-880" />
             </li>
             <li>
               <strong>If you&rsquo;re denied:</strong>{" "}you can appeal to the
-              Kentucky Attorney General, who issues a binding decision — no
+              Kentucky Attorney General, who issues a binding decision, no
               lawyer required.
               <Cite id="krs-61-880" />
             </li>
@@ -189,9 +189,9 @@ export default function StatusPage() {
           </ul>
           <p>
             A request can be one paragraph: who you are, that you are a
-            Kentucky resident, what records you want (be specific — dates,
+            Kentucky resident, what records you want (be specific: dates,
             topics, parties), and how you&rsquo;d like to receive them. Send it
-            to the agency&rsquo;s records custodian — for city records, City
+            to the agency&rsquo;s records custodian: for city records, City
             Hall at 243 Main Street.
             <Cite id="pikeville-review-details" />
           </p>

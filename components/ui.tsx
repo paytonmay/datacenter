@@ -129,7 +129,7 @@ export function Evidence({
   );
 }
 
-/** Simple horizontal bar chart rendered with divs — no chart library needed. */
+/** Simple horizontal bar chart rendered with divs; no chart library needed. */
 export function BarChart({
   unit,
   max,

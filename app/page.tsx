@@ -9,33 +9,33 @@ export const metadata: Metadata = {
 const topics = [
   {
     href: "/pros-cons",
-    title: "Pros & Cons — the quick version",
-    desc: "The case for and the concerns, topic by topic, on a single page — jobs, bills, water, noise, health, and trust — with links to dig deeper when you want the full evidence.",
+    title: "Pros & Cons: the quick version",
+    desc: "The case for and the concerns, topic by topic, on a single page (jobs, bills, water, noise, health, and trust), with links to dig deeper when you want the full evidence.",
   },
   {
     href: "/status",
     title: "What's next & how to speak up",
-    desc: "Where the process stands right now — what's done, what's promised — plus when the commission meets, how to comment, and how to request public records yourself.",
+    desc: "Where the process stands right now (what's done, what's promised), plus when the commission meets, how to comment, and how to request public records yourself.",
   },
   {
     href: "/questions",
     title: "Questions to ask (printable)",
-    desc: "A checklist of the specific, sourced questions other towns wish they'd asked before signing — formatted to print and bring to a meeting.",
+    desc: "A checklist of the specific, sourced questions other towns wish they'd asked before signing, formatted to print and bring to a meeting.",
   },
   {
     href: "/ideas",
     title: "Ideas: leveraging the deal",
-    desc: "If the city proceeds, how could it get lasting value? Waste-heat reuse, permanent investment funds that cut taxes, and deal structures that survive ownership changes — each grounded in what another community actually did.",
+    desc: "If the city proceeds, how could it get lasting value? Waste-heat reuse, permanent investment funds that cut taxes, and deal structures that survive ownership changes, each grounded in what another community actually did.",
   },
   {
     href: "/basics",
     title: "The Basics",
-    desc: "What a data center actually is, the different types — from small crypto mines to giant AI campuses — and where a 25–30 MW facility fits on that spectrum.",
+    desc: "What a data center actually is, the different types, from small crypto mines to giant AI campuses, and where a 25–30 MW facility fits on that spectrum.",
   },
   {
     href: "/noise",
     title: "Noise",
-    desc: "Real decibel numbers for cooling fans, generators, and transformers; how sound carries; where data centers have caused noise problems — and where they haven't.",
+    desc: "Real decibel numbers for cooling fans, generators, and transformers; how sound carries; where data centers have caused noise problems, and where they haven't.",
   },
   {
     href: "/water",
@@ -45,17 +45,17 @@ const topics = [
   {
     href: "/power",
     title: "Power & Electric Rates",
-    desc: "How much electricity data centers use, and the question that matters most here: do they push rates up or help hold them down? The evidence runs both ways — and the contract terms decide which.",
+    desc: "How much electricity data centers use, and the question that matters most here: do they push rates up or help hold them down? The evidence runs both ways, and the contract terms decide which.",
   },
   {
     href: "/health",
     title: "Health Concerns",
-    desc: "What's documented, what's alleged but unresolved, and what has no supporting evidence — clearly labeled, with sources.",
+    desc: "What's documented, what's alleged but unresolved, and what has no supporting evidence, clearly labeled, with sources.",
   },
   {
     href: "/communities",
     title: "What Happened in Other Towns",
-    desc: "Public opinion polling, towns that said no, towns that said yes, and what each got — from Loudoun County's tax revenue to Granbury's lawsuit.",
+    desc: "Public opinion polling, towns that said no, towns that said yes, and what each got, from Loudoun County's tax revenue to Granbury's lawsuit.",
   },
 ] as const;
 
@@ -68,7 +68,7 @@ export default function Home() {
             An independent, fully-sourced guide
           </p>
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-            Data centers, explained — for Pikeville and Eastern Kentucky.
+            Data centers, explained: for Pikeville and Eastern Kentucky.
           </h1>
           <p className="mt-6 text-xl leading-relaxed text-slate-600">
             Pikeville is weighing a proposed data center at the Kentucky
@@ -76,7 +76,7 @@ export default function Home() {
             <Cite id="pikeville-press-release" />{" "}Some neighbors see jobs and
             investment; others worry about noise, water, and electric bills.
             Both deserve real answers, not talking points. This site lays out
-            the facts — every claim numbered and linked to its source — so you
+            the facts (every claim numbered and linked to its source) so you
             can make up your own mind.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -133,7 +133,7 @@ export default function Home() {
             <li>
               <strong>Every claim is cited.</strong>{" "}The little numbers like
               this<Cite id="pikeville-review-details" />{" "}link to a full source
-              list — government reports, peer-reviewed studies, utility
+              list: government reports, peer-reviewed studies, utility
               filings, and on-the-record journalism.
             </li>
             <li>

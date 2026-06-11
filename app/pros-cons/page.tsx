@@ -7,7 +7,7 @@ import { Callout, Container, NextPage, PageHeader, Section } from "@/components/
 export const metadata: Metadata = {
   title: "Pros & Cons: The Quick Version",
   description:
-    "The case for and the concerns about the proposed Pikeville data center, topic by topic — jobs, electric bills, water, noise, health, and trust — in plain language, with links to the full evidence.",
+    "The case for and the concerns about the proposed Pikeville data center, topic by topic (jobs, electric bills, water, noise, health, and trust), in plain language, with links to the full evidence.",
   alternates: { canonical: "/pros-cons" },
 };
 
@@ -59,14 +59,14 @@ export default function ProsConsPage() {
       <PageHeader
         kicker="The quick version"
         title="Pros and cons, on one page."
-        lede="If you only read one page on this site, make it this one. Each topic below gives the strongest documented case on both sides, in plain language — and every row links to a deep-dive page where each claim is sourced. None of this is hypothetical: it all comes from what actually happened in other towns."
+        lede="If you only read one page on this site, make it this one. Each topic below gives the strongest documented case on both sides, in plain language, and every row links to a deep-dive page where each claim is sourced. None of this is hypothetical: it all comes from what actually happened in other towns."
       />
       <Container>
         <Section title="Jobs, taxes & investment">
           <ProCon
             pro={
               <p>
-                Building a data center employs a lot of people — a large Meta
+                Building a data center employs a lot of people: a large Meta
                 project in Texas reported 4,000+ construction workers at peak,
                 with 300+ permanent jobs.
                 <Cite id="meta-elpaso" />{" "}And where data centers are taxed,
@@ -105,7 +105,7 @@ export default function ProsConsPage() {
             pro={
               <p>
                 Kentucky Power has lost so many customers that fixed costs
-                are spread over fewer and fewer bills — that&rsquo;s part of
+                are spread over fewer and fewer bills; that&rsquo;s part of
                 why rates here climbed.
                 <Cite id="icn-death-spiral" />{" "}A big, steady industrial
                 customer pushes the other way; the utility calls large loads
@@ -122,7 +122,7 @@ export default function ProsConsPage() {
                 Where data centers clustered, wholesale electricity prices
                 rose as much as 267% in five years,
                 <Cite id="bloomberg-nodes" />{" "}and data center demand drove
-                about 40% — $6.5 billion — of the latest capacity auction
+                about 40% ($6.5 billion) of the latest capacity auction
                 cost in the nation&rsquo;s largest grid region.
                 <Cite id="monitoring-analytics-pjm" />{" "}A majority of
                 Americans now blame data centers for rising bills.
@@ -131,7 +131,7 @@ export default function ProsConsPage() {
             }
           />
           <p className="text-sm text-slate-500">
-            Which way it goes here is not luck — it&rsquo;s decided by the
+            Which way it goes here is not luck; it&rsquo;s decided by the
             contract and tariff terms signed before approval.
           </p>
           <DigDeeper links={[{ href: "/power", label: "Power & Rates" }]} />
@@ -141,7 +141,7 @@ export default function ProsConsPage() {
           <ProCon
             pro={
               <p>
-                Modern sealed-loop cooling is filled once and recirculated —
+                Modern sealed-loop cooling is filled once and recirculated:
                 Microsoft&rsquo;s newest design uses roughly office-park
                 amounts of water,
                 <Cite id="microsoft-zero-water" />{" "}and its Wisconsin campus
@@ -223,7 +223,7 @@ export default function ProsConsPage() {
             con={
               <p>
                 Backup diesel generators emit exhaust classified as
-                carcinogenic to humans — the question is how many hours they
+                carcinogenic to humans; the question is how many hours they
                 run,
                 <Cite id="iarc-diesel" />{" "}and Memphis is the cautionary tale
                 of unpermitted turbines running for months.
@@ -253,7 +253,7 @@ export default function ProsConsPage() {
             }
             con={
               <p>
-                The recurring failure isn&rsquo;t engineering — it&rsquo;s
+                The recurring failure isn&rsquo;t engineering; it&rsquo;s
                 secrecy. NDAs and undisclosed details have fueled enough
                 backlash that at least 16 projects worth ~$64 billion have
                 been blocked or delayed by local opposition,
@@ -276,7 +276,7 @@ export default function ProsConsPage() {
         <Callout tone="info" title="The pattern across every topic">
           <p>
             Good and bad outcomes in other towns rarely came down to the
-            technology — they came down to <strong>what was committed in
+            technology; they came down to <strong>what was committed in
             writing before approval</strong>: the cooling design, enforceable
             noise limits, tariff terms that protect ratepayers, spill plans,
             and disclosure. The Pikeville page lists the specific questions

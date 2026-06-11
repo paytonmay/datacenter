@@ -1,4 +1,4 @@
-/** Canonical production origin — used by metadata, sitemap, robots, and JSON-LD. */
+/** Canonical production origin: used by metadata, sitemap, robots, and JSON-LD. */
 export const SITE_URL = "https://pikevilledatacenter.com";
 
 export const SITE_NAME = "Data Centers, Explained";

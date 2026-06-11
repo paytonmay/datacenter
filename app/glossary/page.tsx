@@ -5,7 +5,7 @@ import { Container, NextPage, PageHeader } from "@/components/ui";
 export const metadata: Metadata = {
   title: "Glossary: The Jargon, Translated",
   description:
-    "Plain-language definitions of the terms in the data center debate — megawatts, PUE, WUE, blowdown, tariffs, capacity markets, MOUs, and more.",
+    "Plain-language definitions of the terms in the data center debate: megawatts, PUE, WUE, blowdown, tariffs, capacity markets, MOUs, and more.",
   alternates: { canonical: "/glossary" },
 };
 
@@ -23,12 +23,12 @@ const terms: Term[] = [
   },
   {
     term: "Capacity market / capacity auction",
-    def: "A system where power generators are paid in advance just to be available during peak demand. When demand forecasts spike (as with data centers), capacity prices can jump — and those costs flow into everyone's bills.",
+    def: "A system where power generators are paid in advance just to be available during peak demand. When demand forecasts spike (as with data centers), capacity prices can jump, and those costs flow into everyone's bills.",
     link: { href: "/power", label: "Power & Rates" },
   },
   {
     term: "Closed-loop (direct-to-chip) cooling",
-    def: "The new AI-era standard: a sealed water loop filled once at construction and recirculated indefinitely past the chips. Nearly eliminates ongoing water use — and produces hot water that could be reused for heating.",
+    def: "The new AI-era standard: a sealed water loop filled once at construction and recirculated indefinitely past the chips. Nearly eliminates ongoing water use, and produces hot water that could be reused for heating.",
     link: { href: "/water", label: "Water" },
   },
   {
@@ -38,7 +38,7 @@ const terms: Term[] = [
   },
   {
     term: "dBA / dBC",
-    def: "Two ways of measuring sound. dBA approximates ordinary human hearing; dBC gives more weight to low-frequency sound — the deep hum that travels farthest and bothers neighbors most. A noise rule that only sets a dBA limit can miss the hum entirely.",
+    def: "Two ways of measuring sound. dBA approximates ordinary human hearing; dBC gives more weight to low-frequency sound, the deep hum that travels farthest and bothers neighbors most. A noise rule that only sets a dBA limit can miss the hum entirely.",
     link: { href: "/noise", label: "Noise" },
   },
   {
@@ -48,7 +48,7 @@ const terms: Term[] = [
   },
   {
     term: "Development Agreement",
-    def: "The binding contract between a city and a developer setting the actual terms — land, commitments, payments, enforcement. In Pikeville, this is the document that doesn't exist yet; the MOU only opened negotiations toward one.",
+    def: "The binding contract between a city and a developer setting the actual terms: land, commitments, payments, enforcement. In Pikeville, this is the document that doesn't exist yet; the MOU only opened negotiations toward one.",
     link: { href: "/status", label: "What's Next" },
   },
   {
@@ -58,7 +58,7 @@ const terms: Term[] = [
   },
   {
     term: "Evaporative cooling (open cooling tower)",
-    def: "Cooling by evaporating water — energy-efficient but water-hungry. The thirstiest data center design, using millions of gallons per megawatt per year.",
+    def: "Cooling by evaporating water: energy-efficient but water-hungry. The thirstiest data center design, using millions of gallons per megawatt per year.",
     link: { href: "/water", label: "Water" },
   },
   {
@@ -97,12 +97,12 @@ const terms: Term[] = [
   },
   {
     term: "Permanent fund / endowment",
-    def: "A pool of money where the principal is invested and only a fixed percentage (typically 4-5% a year) is spent — producing income forever. Alaska, New Mexico, North Dakota, and (for data centers specifically) West Virginia all run versions.",
+    def: "A pool of money where the principal is invested and only a fixed percentage (typically 4-5% a year) is spent, producing income forever. Alaska, New Mexico, North Dakota, and (for data centers specifically) West Virginia all run versions.",
     link: { href: "/ideas", label: "Ideas" },
   },
   {
     term: "PILOT (payment in lieu of taxes)",
-    def: "A negotiated annual payment a company makes instead of normal property taxes — sometimes more predictable, sometimes a discount. Pikeville has said it will not reduce local taxes as an incentive.",
+    def: "A negotiated annual payment a company makes instead of normal property taxes: sometimes more predictable, sometimes a discount. Pikeville has said it will not reduce local taxes as an incentive.",
     link: { href: "/pikeville", label: "Pikeville" },
   },
   {
@@ -112,12 +112,12 @@ const terms: Term[] = [
   },
   {
     term: "Tangible personal property tax",
-    def: "Kentucky's tax on business equipment — including servers. Because computing equipment is most of a data center's value (and gets replaced every few years), this is often the biggest local tax stream. The state's data center incentive exempts sales tax, not this.",
+    def: "Kentucky's tax on business equipment, including servers. Because computing equipment is most of a data center's value (and gets replaced every few years), this is often the biggest local tax stream. The state's data center incentive exempts sales tax, not this.",
     link: { href: "/ideas", label: "Ideas" },
   },
   {
     term: "Tier (I-IV)",
-    def: "An industry reliability rating for data centers. Higher tiers mean more redundancy — more backup generators, more cooling capacity — not bigger size.",
+    def: "An industry reliability rating for data centers. Higher tiers mean more redundancy (more backup generators, more cooling capacity), not bigger size.",
     link: { href: "/basics", label: "The Basics" },
   },
   {
@@ -138,7 +138,7 @@ export default function GlossaryPage() {
       <PageHeader
         kicker="Translation layer"
         title="The jargon, in plain language."
-        lede="Every debate about data centers is conducted in acronyms. Here's what they actually mean — each entry links to the page where the term does real work."
+        lede="Every debate about data centers is conducted in acronyms. Here's what they actually mean; each entry links to the page where the term does real work."
       />
       <Container>
         <dl className="divide-y divide-slate-200">

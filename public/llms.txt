@@ -7,18 +7,18 @@ The site is not funded by or coordinated with the city, the developer, the utili
 ## Pages
 
 - [Home](https://pikevilledatacenter.com/): What the site covers and how it handles facts
-- [Pros & Cons](https://pikevilledatacenter.com/pros-cons): The quick version — the case for and the concerns, topic by topic, with links to the deep dives
-- [Ideas](https://pikevilledatacenter.com/ideas): How the city could leverage the deal — waste-heat reuse for neighboring industry, a permanent investment fund modeled on Alaska/New Mexico/North Dakota/West Virginia precedents (with scenario math against Pikeville's actual budget), and deal structures (lease vs. sale, land-tied commitments, enforceable milestones)
+- [Pros & Cons](https://pikevilledatacenter.com/pros-cons): The quick version: the case for and the concerns, topic by topic, with links to the deep dives
+- [Ideas](https://pikevilledatacenter.com/ideas): How the city could leverage the deal: waste-heat reuse for neighboring industry, a permanent investment fund modeled on Alaska/New Mexico/North Dakota/West Virginia precedents (with scenario math against Pikeville's actual budget), and deal structures (lease vs. sale, land-tied commitments, enforceable milestones)
 - [The Basics](https://pikevilledatacenter.com/basics): What a data center is, the types (hyperscale, colocation, crypto, AI), and where a 25–30 MW facility fits
 - [Map](https://pikevilledatacenter.com/map): The Kentucky Enterprise Industrial Park site with distance rings to the nearest homes
 - [Noise](https://pikevilledatacenter.com/noise): Measured decibel levels by equipment type, real complaint cases, standards, and mitigation
 - [Water](https://pikevilledatacenter.com/water): Cooling system types and real consumption numbers; what's in the discharge water (blowdown, biocides, corrosion inhibitors) and how it's regulated; documented cases (Quincy WA, The Dalles OR, Newton County GA)
 - [Power & Rates](https://pikevilledatacenter.com/power): Electricity use, Kentucky Power / Eastern Kentucky context, and the evidence on whether data centers raise or lower electric bills
-- [Health](https://pikevilledatacenter.com/health): Health concerns sorted by evidence strength — diesel exhaust, noise, EMF, water
+- [Health](https://pikevilledatacenter.com/health): Health concerns sorted by evidence strength: diesel exhaust, noise, EMF, water
 - [Other Towns](https://pikevilledatacenter.com/communities): Public-opinion polling and what happened in towns that said yes or no
 - [Pikeville](https://pikevilledatacenter.com/pikeville): What the city's own published documents say about the proposal, and what is not yet decided
 - [What's Next](https://pikevilledatacenter.com/status): Timeline of the process (MOU signed April 20, 2026; 120-day exclusive negotiation; promised public review before any vote), how to attend commission meetings and comment, and how Kentucky Open Records requests work (5-business-day response, AG appeals)
-- [Questions to Ask](https://pikevilledatacenter.com/questions): Printable checklist of sourced questions for the Development Agreement — water, noise, rates, jobs, land terms, accountability — plus a precedent-document shelf for officials
+- [Questions to Ask](https://pikevilledatacenter.com/questions): Printable checklist of sourced questions for the Development Agreement (water, noise, rates, jobs, land terms, accountability), plus a precedent-document shelf for officials
 - [FAQ](https://pikevilledatacenter.com/faq): Direct short answers (with FAQPage structured data) to common questions: bills, noise, water, health, jobs, who decides
 - [Glossary](https://pikevilledatacenter.com/glossary): Plain-language definitions: MW, PUE, WUE, blowdown, tariffs, capacity markets, MOU vs Development Agreement, permanent funds
 - [Updates](https://pikevilledatacenter.com/updates): Public changelog of substantive site changes with dates

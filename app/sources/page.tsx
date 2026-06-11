@@ -5,7 +5,7 @@ import { sources } from "@/lib/sources";
 export const metadata: Metadata = {
   title: "Sources",
   description:
-    "Every source cited on this site, numbered and linked — government reports, peer-reviewed studies, utility filings, and journalism.",
+    "Every source cited on this site, numbered and linked: government reports, peer-reviewed studies, utility filings, and journalism.",
   alternates: { canonical: "/sources" },
 };
 

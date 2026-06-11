@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = {
   title: "Map: The Site & Its Neighbors",
   description:
-    "An interactive map of the Kentucky Enterprise Industrial Park with distance rings and the nearest residential areas — plus what the site's terrain means for noise.",
+    "An interactive map of the Kentucky Enterprise Industrial Park with distance rings and the nearest residential areas, plus what the site's terrain means for noise.",
   alternates: { canonical: "/map" },
 };
 
@@ -22,7 +22,7 @@ export default function MapPage() {
       <PageHeader
         kicker="The site in context"
         title="How far is the park from the nearest homes?"
-        lede="Distance is the single most reliable protection against data center noise — so here's the actual geography. The rings show how far sound carries over flat ground; the blue markers are the nearest residential areas, identified from state site listings and map data."
+        lede="Distance is the single most reliable protection against data center noise, so here's the actual geography. The rings show how far sound carries over flat ground; the blue markers are the nearest residential areas, identified from state site listings and map data."
       />
       <Container>
         <div className="pt-8">
@@ -45,13 +45,13 @@ export default function MapPage() {
               (Lot A-3): a 100,000 sq ft graded pad on 9.32 buildable acres,
               completed with $4 million in city and state funding.
               <Cite id="newsexpress-buildready" />{" "}The MOU identifies tracts
-              A-3, A-4, A-5, A-6, and C-1 — all on the same bench.
+              A-3, A-4, A-5, A-6, and C-1, all on the same bench.
               <Cite id="pikeville-mou" />
             </li>
             <li>
               <strong>The nearest homes are not on the plateau.</strong>{" "}The
-              closest residential area — the Island Creek valley subdivision
-              northwest of the park — sits in the valley roughly 1,000–2,500
+              closest residential area, the Island Creek valley subdivision
+              northwest of the park, sits in the valley roughly 1,000–2,500
               feet from the park boundary, and about a mile from the pad
               area. The hamlets of Pigeon, Yorktown, and Fords Branch lie
               roughly 1 to 1.6 miles away. Downtown Pikeville is about 3.9
@@ -67,11 +67,11 @@ export default function MapPage() {
           </ul>
         </Section>
 
-        <Section title="What the terrain means for noise — honestly, both ways">
+        <Section title="What the terrain means for noise: honestly, both ways">
           <p>
             The park&rsquo;s elevation is its most unusual feature: the bench
             sits at roughly 1,250–1,325 feet, while the surrounding valley
-            floors — where the homes are — sit 450–620 feet{" "}
+            floors, where the homes are, sit 450–620 feet{" "}
             <em>below</em>{" "}it.
             <Cite id="oneeastky-packet" />{" "}That cuts both ways:
           </p>
@@ -79,7 +79,7 @@ export default function MapPage() {
             <li>
               <strong>In the site&rsquo;s favor:</strong>{" "}homes are below the
               plateau rim rather than line-of-sight with equipment, and the
-              rim itself can act as a sound barrier — the geometry that
+              rim itself can act as a sound barrier, the geometry that
               setback-and-barrier mitigation tries to create artificially.
               <Cite id="lsars-noise" />{" "}Compare that with the worst documented
               cases, where equipment sat at the same grade as homes 100 yards
@@ -88,7 +88,7 @@ export default function MapPage() {
             </li>
             <li>
               <strong>Worth watching:</strong>{" "}nighttime temperature
-              inversions — common in mountain valleys — can carry
+              inversions, common in mountain valleys, can carry
               low-frequency sound farther than flat-ground math predicts, and
               sound that clears a rim can travel down a hollow.
               <Cite id="lsars-noise" />{" "}The rings on this map assume flat,
@@ -99,7 +99,7 @@ export default function MapPage() {
           <Callout tone="info" title="The question this map can't answer">
             Where exactly within the 190 acres the cooling equipment and
             generators would sit, what design they use, and what numeric
-            noise limit applies — those determine what anyone actually hears,
+            noise limit applies. Those determine what anyone actually hears,
             and they belong in a pre-approval sound study and the Development
             Agreement. Virginia&rsquo;s state auditors recommend exactly
             that: require sound modeling <em>before</em>{" "}approval, not
@@ -126,7 +126,7 @@ export default function MapPage() {
           </p>
         </Section>
 
-        <NextPage href="/noise" label="The full noise page — decibels, cases, standards" />
+        <NextPage href="/noise" label="The full noise page: decibels, cases, standards" />
       </Container>
     </>
   );

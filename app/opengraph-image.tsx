@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Data Centers, Explained — a factual guide for Pikeville & Eastern Kentucky";
+  "Data Centers, Explained: a factual guide for Pikeville & Eastern Kentucky";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -67,7 +67,7 @@ export default function Image() {
             lineHeight: 1.4,
           }}
         >
-          For Pikeville and Eastern Kentucky — every claim numbered and linked
+          For Pikeville and Eastern Kentucky: every claim numbered and linked
           to its source.
         </div>
         <div

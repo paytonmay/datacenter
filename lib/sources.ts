@@ -5,7 +5,7 @@ import { Source } from "./types";
  * Pages cite by id via <Cite id="..." />; numbers are assigned by
  * position in this list and rendered on /sources.
  *
- * NOTE: keep ids stable once published — they're used in anchors.
+ * NOTE: keep ids stable once published; they're used in anchors.
  */
 export const sources: Source[] = [
   // ── Pikeville / local documents ─────────────────────────────────
@@ -118,7 +118,7 @@ export const sources: Source[] = [
   },
   {
     id: "jlarc-2024",
-    title: "Data Centers in Virginia (Report 598 — the most comprehensive independent state study of data center impacts)",
+    title: "Data Centers in Virginia (Report 598, the most comprehensive independent state study of data center impacts)",
     publisher:
       "Joint Legislative Audit & Review Commission (JLARC), Virginia General Assembly",
     url: "https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp",
@@ -144,7 +144,7 @@ export const sources: Source[] = [
   },
   {
     id: "latitude-jobs",
-    title: "Data center jobs aren't at servers — they're in energy",
+    title: "Data center jobs aren't at servers; they're in energy",
     publisher: "Latitude Media",
     url: "https://www.latitudemedia.com/news/data-center-jobs-arent-at-servers-theyre-in-energy/",
     kind: "news",
@@ -466,7 +466,7 @@ export const sources: Source[] = [
   {
     id: "fortune-not-just-dc",
     title:
-      "Electricity bills are surging — and it's not just data centers (counter-analysis)",
+      "Electricity bills are surging, and it's not just data centers (counter-analysis)",
     publisher: "Fortune",
     url: "https://fortune.com/2026/05/20/electricity-bills-surging-not-just-data-centers/",
     year: "2026",
@@ -520,7 +520,7 @@ export const sources: Source[] = [
   {
     id: "icn-death-spiral",
     title:
-      "As coal collapsed, Kentucky Power spread fixed costs across fewer customers — and rates climbed",
+      "As coal collapsed, Kentucky Power spread fixed costs across fewer customers, and rates climbed",
     publisher: "Inside Climate News",
     url: "https://insideclimatenews.org/news/14082018/coal-energy-prices-appalachia-mining-electric-bill-kentucky-economy-aep-rates/",
     year: "2018",
@@ -627,7 +627,7 @@ export const sources: Source[] = [
   },
   {
     id: "semianalysis-electrical",
-    title: "Datacenter Anatomy Part 1 — Electrical Systems (interconnection voltages and costs)",
+    title: "Datacenter Anatomy Part 1: Electrical Systems (interconnection voltages and costs)",
     publisher: "SemiAnalysis",
     url: "https://semianalysis.com/2024/10/14/datacenter-anatomy-part-1-electrical/",
     year: "2024",
@@ -906,7 +906,7 @@ export const sources: Source[] = [
   {
     id: "register-dalles",
     title:
-      "Google's data centers used 355.1 million gallons in The Dalles in 2021 — 29% of the city's water (disclosed after a records lawsuit)",
+      "Google's data centers used 355.1 million gallons in The Dalles in 2021, 29% of the city's water (disclosed after a records lawsuit)",
     publisher: "The Register",
     url: "https://www.theregister.com/2022/12/19/google_datacenters_dalles/",
     year: "2022",
@@ -1068,7 +1068,7 @@ export const sources: Source[] = [
   {
     id: "gigafact-wells",
     title:
-      "Can data centers contaminate wells and other water sources? (fact brief: yes — via diesel leaks or improper wastewater discharge, if containment fails)",
+      "Can data centers contaminate wells and other water sources? (fact brief: yes, via diesel leaks or improper wastewater discharge, if containment fails)",
     publisher: "Gigafact / Maine Trust for Local News",
     url: "https://gigafact.org/fact-briefs/can-data-centers-contaminate-wells-and-other-water-sources-fact-brief/",
     year: "2026",
@@ -1128,7 +1128,7 @@ export const sources: Source[] = [
   {
     id: "deep-green-pool",
     title:
-      "Exmouth swimming pool heated by a 28 kW micro data center — pool gas use cut 62%, ~£20,000/yr saved",
+      "Exmouth swimming pool heated by a 28 kW micro data center: pool gas use cut 62%, ~£20,000/yr saved",
     publisher: "East Devon District Council",
     url: "https://eastdevon.gov.uk/news/2023/03/exmouth-swimming-pool-is-heated-by-a-uk-first-in-technology-heating-solutions/",
     year: "2023",
@@ -1261,7 +1261,7 @@ export const sources: Source[] = [
   {
     id: "krs-66-480",
     title:
-      "KRS 66.480: Investment of public funds — what Kentucky local governments may invest in (government obligations, insured or collateralized deposits, highly rated paper)",
+      "KRS 66.480: Investment of public funds, what Kentucky local governments may invest in (government obligations, insured or collateralized deposits, highly rated paper)",
     publisher: "Kentucky General Assembly",
     url: "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53011",
     kind: "government",
@@ -1305,7 +1305,7 @@ export const sources: Source[] = [
   {
     id: "ky-lantern-cig",
     title:
-      "Pike County crypto mining operation approved for electricity discounts — with conditions (CIG/Kentucky Power special contract, 2023)",
+      "Pike County crypto mining operation approved for electricity discounts, with conditions (CIG/Kentucky Power special contract, 2023)",
     publisher: "Kentucky Lantern",
     url: "https://kentuckylantern.com/2023/09/19/pike-county-crypto-mining-operation-approved-for-electricity-discounts-with-conditions/",
     year: "2023",
@@ -1331,7 +1331,7 @@ export const sources: Source[] = [
   {
     id: "kentuckynewera-crypto",
     title:
-      "Kentucky's crypto-mining promises were 'not always fulfilled' — Jenkins facility never switched on; jobs never materialized (AP)",
+      "Kentucky's crypto-mining promises were 'not always fulfilled': Jenkins facility never switched on; jobs never materialized (AP)",
     publisher: "Kentucky New Era (Associated Press)",
     url: "https://www.kentuckynewera.com/cadiz_record/news/article_0865bed4-2e61-5d2b-9b99-fb842319238f.html",
     kind: "news",

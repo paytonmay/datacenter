@@ -20,12 +20,12 @@ import "leaflet/dist/leaflet.css";
 const RING_CENTER: [number, number] = [37.4248, -82.5375];
 
 const RINGS: { feet: number; label: string; color: string }[] = [
-  { feet: 200, label: "200 ft — ~60 dB*", color: "#dc2626" },
-  { feet: 800, label: "800 ft — ~50 dB*", color: "#ea580c" },
-  { feet: 2640, label: "½ mile — ~40 dB*", color: "#ca8a04" },
+  { feet: 200, label: "200 ft: ~60 dB*", color: "#dc2626" },
+  { feet: 800, label: "800 ft: ~50 dB*", color: "#ea580c" },
+  { feet: 2640, label: "½ mile: ~40 dB*", color: "#ca8a04" },
   {
     feet: 5280,
-    label: "1 mile — generator tests may be faintly audible",
+    label: "1 mile: generator tests may be faintly audible",
     color: "#f1f5f9", // light so it reads against dark satellite imagery
   },
 ];
@@ -39,7 +39,7 @@ const PLACES: {
     pos: [37.4418, -82.5424],
     name: "Island Creek valley homes",
     detail:
-      "The subdivision nearest the park boundary — in the valley ~1,000–2,500 ft below the park's northwest rim; about 1–1.2 mi from the pad area.",
+      "The subdivision nearest the park boundary, in the valley ~1,000–2,500 ft below the park's northwest rim; about 1–1.2 mi from the pad area.",
   },
   {
     pos: [37.432, -82.5535],
@@ -83,7 +83,7 @@ export default function ParkMap() {
       "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
       {
         attribution:
-          "Imagery &copy; Esri — Maxar, Earthstar Geographics, and the GIS User Community",
+          "Imagery &copy; Esri, Maxar, Earthstar Geographics, and the GIS User Community",
         maxZoom: 18,
       }
     ).addTo(map);

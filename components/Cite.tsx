@@ -20,7 +20,7 @@ export function Cite({ id }: { id: string }) {
     <sup className="ml-0.5">
       <Link
         href={`/sources#src-${id}`}
-        title={`${source.title} — ${source.publisher}`}
+        title={`${source.title} (${source.publisher})`}
         className="inline-flex min-h-[24px] min-w-[24px] items-center justify-center rounded bg-slate-200 px-1.5 py-1 text-[0.7rem] font-semibold text-slate-700 no-underline hover:bg-amber-200 hover:text-slate-900"
       >
         {n}

@@ -22,7 +22,7 @@ export default function NoisePage() {
       <PageHeader
         kicker="The hum question"
         title="How loud is a data center?"
-        lede="It depends — heavily — on the cooling design, the equipment, and the distance to the nearest home. Most data centers generate no noise complaints at all; a minority, especially air-cooled crypto mines built close to homes, have made national news. Here are the measured numbers."
+        lede="It depends, heavily, on the cooling design, the equipment, and the distance to the nearest home. Most data centers generate no noise complaints at all; a minority, especially air-cooled crypto mines built close to homes, have made national news. Here are the measured numbers."
       />
       <Container>
         <Section title="First, a 30-second decibel primer">
@@ -40,7 +40,7 @@ export default function NoisePage() {
             &ldquo;A-weighting&rdquo; (dBA), which mimics human hearing and{" "}
             <em>under-counts low-frequency sound</em>. Cooling fans and
             transformers produce exactly that kind of low rumble and 120 Hz
-            hum — which travels farther and penetrates walls better than
+            hum, which travels farther and penetrates walls better than
             higher-pitched sound. That&rsquo;s why a facility can pass a dBA
             limit and still produce an audible indoor hum that neighbors find
             maddening.
@@ -110,15 +110,15 @@ export default function NoisePage() {
           </p>
           <p>
             Two big takeaways. First, the loudest routine event at a
-            conventional data center is <strong>generator testing</strong>{" "}—
-            typically monthly, 30 minutes to 2 hours per generator, at 90–105
-            dB up close — which is why permits usually restrict testing to
+            conventional data center is <strong>generator testing</strong>{" "}
+            (typically monthly, 30 minutes to 2 hours per generator, at 90–105
+            dB up close), which is why permits usually restrict testing to
             daytime hours.
             <Cite id="lsars-noise" />{" "}(Virginia air permits cap generators at
             roughly 500 hours per year, total, including emergencies.
             <Cite id="va-deq-generators" />
             <Cite id="trinity-va-deq" />) Second, the{" "}
-            <strong>continuous</strong>{" "}sound — the &ldquo;hum&rdquo; — comes
+            <strong>continuous</strong>{" "}sound (the &ldquo;hum&rdquo;) comes
             from cooling. Air-cooled facilities with walls of fans are the
             loudest class; liquid-cooled halls run 40–55 dB versus 70–85 dB
             for air-cooled equivalents.
@@ -134,13 +134,13 @@ export default function NoisePage() {
             ground.
             <Cite id="lsars-noise" />{" "}Terrain changes this in both
             directions: hills and barriers block sound, while nighttime
-            temperature inversions — common in valleys like ours — can carry
+            temperature inversions (common in valleys like ours) can carry
             low-frequency sound farther than the simple math suggests.
             <Cite id="lsars-noise" />{" "}Distance is the cheapest, most reliable
             protection: the proposed Pikeville site is inside an existing
             industrial park, and how far the nearest homes are from the
             cooling equipment will matter more than almost anything else.
-            See <a href="/map">the map page</a> for the actual geography —
+            See <a href="/map">the map page</a> for the actual geography:
             the park sits on a plateau several hundred feet above the
             nearest valley homes, roughly a mile away.
           </p>
@@ -155,13 +155,13 @@ export default function NoisePage() {
             <em>most</em>{" "}Virginia data centers generate no noise complaints,
             but about a third sit within 200 feet of residentially zoned land,
             and at facilities that did draw complaints, measured noise
-            typically ran 40–59 dB — not hearing-damaging, but a constant
+            typically ran 40–59 dB: not hearing-damaging, but a constant
             presence that some residents said affected their well-being.
             <Cite id="jlarc-2024" />{" "}In the best-documented retrofit, Amazon
             replaced all 424 rooftop exhaust fans at a Manassas-area complex
             after neighbors measured up to 65 dB at night; the fix cut the
             noise about 10 dB, to ~50 dB, confirmed by both sides.
-            <Cite id="pwt-amazon-retrofit" />{" "}Complaints continue elsewhere —
+            <Cite id="pwt-amazon-retrofit" />{" "}Complaints continue elsewhere:
             in 2026 a TV crew&rsquo;s phone app read 90 dB near a Loudoun
             facility neighbors compared to &ldquo;a helicopter hovering all
             day and night&rdquo; (phone apps aren&rsquo;t calibrated
@@ -169,13 +169,13 @@ export default function NoisePage() {
             <Cite id="nbc4-loudoun-noise" />
           </p>
           <p>
-            <strong>Granbury, Texas (crypto mine — the worst case):</strong>{" "}
+            <strong>Granbury, Texas (crypto mine, the worst case):</strong>{" "}
             a Bitcoin mine with ~60,000 air-cooled machines was built less
             than 100 yards from a mobile-home park.
             <Cite id="texas-tribune-granbury" />{" "}A county constable recorded
             readings near 85 dB and issued 37 citations; a county-funded
             study later measured ~60 dB near the facility and 35–53 dB within
-            a mile — the dispute over measurements is itself part of the
+            a mile; the dispute over measurements is itself part of the
             story.
             <Cite id="texas-tribune-granbury" />{" "}Residents reported
             migraines, vertigo, and tinnitus to TIME&rsquo;s investigators;
@@ -193,9 +193,9 @@ export default function NoisePage() {
             <Cite id="ewg-adel" />
           </p>
           <p>
-            <strong>Closest to home — two Eastern Kentucky cases:</strong>{" "}
-            Pike County&rsquo;s own Blockware Bitcoin facility in Belfry — an
-            air-cooled crypto mine, the loudest facility class — has operated
+            <strong>Closest to home, two Eastern Kentucky cases:</strong>{" "}
+            Pike County&rsquo;s own Blockware Bitcoin facility in Belfry (an
+            air-cooled crypto mine, the loudest facility class) has operated
             since 2022 with <em>no noise complaint, lawsuit, or negative
             coverage anywhere in the public record</em>{" "}after four years; it
             occupies a former coal processing site rather than sitting
@@ -207,7 +207,7 @@ export default function NoisePage() {
             disruption; a promised barrier wall became &ldquo;sound
             blankets&rdquo; residents called cosmetic, and the county
             declined to pass a noise ordinance.
-            <Cite id="lex18-wolfe" />{" "}Same state, same technology — the
+            <Cite id="lex18-wolfe" />{" "}Same state, same technology: the
             difference was siting and follow-through.
           </p>
           <p>
@@ -240,7 +240,7 @@ export default function NoisePage() {
           </p>
           <Callout tone="warning" title="Kentucky has no statewide noise limit">
             Kentucky law states a policy against noise that jeopardizes
-            health and welfare but sets no enforceable statewide number —
+            health and welfare but sets no enforceable statewide number;
             noise control is left to local governments.
             <Cite id="ky-noise-law" />{" "}That means any numeric noise limit,
             measurement method (including low-frequency dBC limits), baseline
@@ -268,7 +268,7 @@ export default function NoisePage() {
             </li>
             <li>
               Sound walls and earth berms: 10–20 dB, but only where they
-              block the line of sight — low-frequency sound bends over
+              block the line of sight; low-frequency sound bends over
               barriers (see Granbury).
               <Cite id="lsars-noise" />
               <Cite id="texas-tribune-granbury" />

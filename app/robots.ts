@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 
-// Everything on this site is public, educational, and meant to be found —
+// Everything on this site is public, educational, and meant to be found:
 // by search engines and by AI assistants answering questions about the
 // Pikeville data center proposal. The explicit AI-crawler entries signal
 // that LLM indexing is welcome.

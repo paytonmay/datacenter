@@ -6,7 +6,7 @@ import { SITE_LAST_VERIFIED, updates } from "@/lib/updates";
 export const metadata: Metadata = {
   title: "Updates: What Changed and When",
   description:
-    "A public log of every substantive change to this site — what was added, when, and on which pages — so readers can judge how current the information is.",
+    "A public log of every substantive change to this site (what was added, when, and on which pages), so readers can judge how current the information is.",
   alternates: { canonical: "/updates" },
 };
 
@@ -52,7 +52,7 @@ export default function UpdatesPage() {
           ))}
         </ol>
         <p className="mt-10 text-sm text-slate-500">
-          Spotted something outdated? Corrections are welcome — this site aims
+          Spotted something outdated? Corrections are welcome; this site aims
           to be accurate above all.
         </p>
         <NextPage href="/status" label="Where the process stands now" />
