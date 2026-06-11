@@ -13,6 +13,16 @@ const topics = [
     desc: "The case for and the concerns, topic by topic, on a single page — jobs, bills, water, noise, health, and trust — with links to dig deeper when you want the full evidence.",
   },
   {
+    href: "/status",
+    title: "What's next & how to speak up",
+    desc: "Where the process stands right now — what's done, what's promised — plus when the commission meets, how to comment, and how to request public records yourself.",
+  },
+  {
+    href: "/questions",
+    title: "Questions to ask (printable)",
+    desc: "A checklist of the specific, sourced questions other towns wish they'd asked before signing — formatted to print and bring to a meeting.",
+  },
+  {
     href: "/ideas",
     title: "Ideas: leveraging the deal",
     desc: "If the city proceeds, how could it get lasting value? Waste-heat reuse, permanent investment funds that cut taxes, and deal structures that survive ownership changes — each grounded in what another community actually did.",

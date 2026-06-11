@@ -6,6 +6,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/", priority: 1 },
     { path: "/pros-cons", priority: 0.9 },
     { path: "/ideas", priority: 0.9 },
+    { path: "/status", priority: 0.9 },
+    { path: "/questions", priority: 0.8 },
+    { path: "/faq", priority: 0.8 },
     { path: "/pikeville", priority: 0.9 },
     { path: "/basics", priority: 0.8 },
     { path: "/water", priority: 0.8 },
@@ -15,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/communities", priority: 0.8 },
     { path: "/map", priority: 0.6 },
     { path: "/sources", priority: 0.5 },
+    { path: "/glossary", priority: 0.4 },
+    { path: "/updates", priority: 0.4 },
   ];
 
   return pages.map(({ path, priority }) => ({

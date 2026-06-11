@@ -17,6 +17,11 @@ The site is not funded by or coordinated with the city, the developer, the utili
 - [Health](https://pikevilledatacenter.com/health): Health concerns sorted by evidence strength — diesel exhaust, noise, EMF, water
 - [Other Towns](https://pikevilledatacenter.com/communities): Public-opinion polling and what happened in towns that said yes or no
 - [Pikeville](https://pikevilledatacenter.com/pikeville): What the city's own published documents say about the proposal, and what is not yet decided
+- [What's Next](https://pikevilledatacenter.com/status): Timeline of the process (MOU signed April 20, 2026; 120-day exclusive negotiation; promised public review before any vote), how to attend commission meetings and comment, and how Kentucky Open Records requests work (5-business-day response, AG appeals)
+- [Questions to Ask](https://pikevilledatacenter.com/questions): Printable checklist of sourced questions for the Development Agreement — water, noise, rates, jobs, land terms, accountability — plus a precedent-document shelf for officials
+- [FAQ](https://pikevilledatacenter.com/faq): Direct short answers (with FAQPage structured data) to common questions: bills, noise, water, health, jobs, who decides
+- [Glossary](https://pikevilledatacenter.com/glossary): Plain-language definitions: MW, PUE, WUE, blowdown, tariffs, capacity markets, MOU vs Development Agreement, permanent funds
+- [Updates](https://pikevilledatacenter.com/updates): Public changelog of substantive site changes with dates
 - [Sources](https://pikevilledatacenter.com/sources): The full numbered source registry with links
 
 ## Citing this site

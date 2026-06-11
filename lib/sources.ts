@@ -1267,6 +1267,32 @@ export const sources: Source[] = [
     kind: "government",
   },
 
+  // ── Civic process & open government ─────────────────────────────
+  {
+    id: "pikeville-commission",
+    title:
+      "City Commission (regular meetings on the second and fourth Monday of each month, open to the public; agendas and minutes posted online)",
+    publisher: "City of Pikeville, KY",
+    url: "https://pikevilleky.gov/city-commission/",
+    kind: "local",
+  },
+  {
+    id: "krs-61-872",
+    title:
+      "KRS 61.872: Right of Kentucky residents to inspect public records (written application; agency may not demand proof of residency)",
+    publisher: "Kentucky General Assembly",
+    url: "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=51391",
+    kind: "government",
+  },
+  {
+    id: "krs-61-880",
+    title:
+      "KRS 61.880: agencies must respond to records requests within five business days and cite the specific exemption for any denial; denials may be appealed to the Attorney General (amended effective June 29, 2021)",
+    publisher: "Kentucky General Assembly",
+    url: "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=51394",
+    kind: "government",
+  },
+
   // ── Eastern Kentucky track record ───────────────────────────────
   {
     id: "gem-belfry",

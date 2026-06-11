@@ -7,6 +7,7 @@ import { useState } from "react";
 const primary = [
   { href: "/pros-cons", label: "Pros & Cons" },
   { href: "/ideas", label: "Ideas" },
+  { href: "/status", label: "What's Next" },
   { href: "/pikeville", label: "Pikeville" },
   { href: "/map", label: "Map" },
 ];
@@ -18,6 +19,8 @@ const secondary = [
   { href: "/power", label: "Power" },
   { href: "/health", label: "Health" },
   { href: "/communities", label: "Other Towns" },
+  { href: "/questions", label: "Questions" },
+  { href: "/faq", label: "FAQ" },
   { href: "/sources", label: "Sources" },
 ];
 
@@ -37,7 +40,7 @@ export function Nav() {
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+    <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur print:hidden">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2 font-extrabold tracking-tight text-slate-900">
           <span className="rounded bg-amber-500 px-1.5 py-0.5 text-sm text-white">DC</span>

@@ -167,7 +167,7 @@ export function BarChart({
 
 export function NextPage({ href, label }: { href: string; label: string }) {
   return (
-    <div className="mt-10 border-t border-slate-200 pt-6">
+    <div className="mt-10 border-t border-slate-200 pt-6 print:hidden">
       <Link
         href={href}
         className="group inline-flex items-center gap-2 text-lg font-bold text-amber-700 hover:text-amber-900"

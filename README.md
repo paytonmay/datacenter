@@ -14,6 +14,11 @@ June 2026.
 - `/` — Home and how the site handles facts
 - `/pros-cons` — The quick version: the case for and the concerns, topic by topic
 - `/ideas` — How the city could leverage the deal: heat reuse, a permanent fund, deal structure
+- `/status` — Process timeline, how to participate, Kentucky Open Records how-to
+- `/questions` — Printable checklist of questions to ask before signing (+ document shelf)
+- `/faq` — Direct answers with FAQPage structured data
+- `/glossary` — Plain-language definitions of the jargon
+- `/updates` — Public changelog; "last verified" stamp lives in lib/updates.ts
 - `/basics` — Data center types and sizes; where 25–30 MW fits
 - `/map` — The site with distance rings to the nearest homes
 - `/noise` — Measured decibel levels, case studies, standards, mitigation
