@@ -4,22 +4,36 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
-const links = [
+const primary = [
   { href: "/pros-cons", label: "Pros & Cons" },
-  { href: "/basics", label: "The Basics" },
+  { href: "/pikeville", label: "Pikeville" },
   { href: "/map", label: "Map" },
+];
+
+const secondary = [
+  { href: "/basics", label: "Basics" },
   { href: "/noise", label: "Noise" },
   { href: "/water", label: "Water" },
-  { href: "/power", label: "Power & Rates" },
+  { href: "/power", label: "Power" },
   { href: "/health", label: "Health" },
   { href: "/communities", label: "Other Towns" },
-  { href: "/pikeville", label: "Pikeville" },
   { href: "/sources", label: "Sources" },
 ];
+
+const allLinks = [...primary, ...secondary];
 
 export function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+
+  const linkClass = (href: string, size: "base" | "sm") =>
+    `rounded-md font-semibold ${
+      size === "base" ? "px-2.5 py-1.5 text-sm" : "px-2 py-1 text-[0.82rem]"
+    } ${
+      pathname?.startsWith(href)
+        ? "bg-amber-100 text-amber-900"
+        : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+    }`;
 
   return (
     <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -40,16 +54,17 @@ export function Nav() {
           </svg>
         </button>
         <div className="hidden items-center gap-1 md:flex">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className={`rounded-md px-2.5 py-1.5 text-sm font-semibold ${
-                pathname?.startsWith(l.href)
-                  ? "bg-amber-100 text-amber-900"
-                  : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
-              }`}
-            >
+          {primary.map((l) => (
+            <Link key={l.href} href={l.href} className={linkClass(l.href, "base")}>
+              {l.label}
+            </Link>
+          ))}
+        </div>
+      </div>
+      <div className="hidden border-t border-slate-100 md:block">
+        <div className="mx-auto flex max-w-5xl items-center gap-1 px-4 py-1.5">
+          {secondary.map((l) => (
+            <Link key={l.href} href={l.href} className={linkClass(l.href, "sm")}>
               {l.label}
             </Link>
           ))}
@@ -57,7 +72,7 @@ export function Nav() {
       </div>
       {open && (
         <div className="border-t border-slate-200 px-4 py-2 md:hidden">
-          {links.map((l) => (
+          {allLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
